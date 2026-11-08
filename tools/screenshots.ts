@@ -29,6 +29,9 @@ async function main() {
   const ctx = await chromium.launchPersistentContext(path.join(os.tmpdir(), 'notwhatiasked-chrome-profile', 'shots'), {
     channel: 'chrome', headless: true, viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, acceptDownloads: true,
   });
+  // 실제 통계에 안 섞이게(sendBeacon 은 route 로 못 막을 때가 있어 빈 함수로)
+  await ctx.addInitScript(() => { Object.defineProperty(navigator, 'sendBeacon', { value: () => true, configurable: true }); });
+  await ctx.route('**/api/report', (r) => r.fulfill({ status: 204 }));
   const page = ctx.pages()[0] ?? (await ctx.newPage());
   await page.goto(`${base}/?lang=${lang}`);
   await page.evaluate(() => { localStorage.clear(); localStorage.setItem('nwia:progress:v1', JSON.stringify({ cleared: { 'eliza-ko-01': { attempts: 1, chars: 2 }, 'eliza-en-01': { attempts: 1, chars: 8 } }, challenge: {}, freeTour: false, original: false, sound: false })); });

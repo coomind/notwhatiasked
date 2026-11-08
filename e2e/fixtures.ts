@@ -25,7 +25,12 @@ export const test = base.extend<{ errors: string[] }, { profile: BrowserContext 
     await p.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
     await p.close();
     // 배포 주소에서 돌 때는 실제 통계를 더럽히지 않도록 기록 전송만 막는다(통계 조회는 그대로)
-    if (process.env.E2E_URL && !process.env.E2E_ALLOW_REPORT) await profile.route('**/api/report', (r) => r.fulfill({ status: 204 }));
+    // (sendBeacon 은 페이지를 떠날 때 보내져 route 로 못 막는 경우가 있어 아예 빈 함수로 바꿈)
+    if (process.env.E2E_URL && !process.env.E2E_ALLOW_REPORT && !(profile as unknown as { _nwiaStub?: boolean })._nwiaStub) {
+      (profile as unknown as { _nwiaStub?: boolean })._nwiaStub = true;
+      await profile.addInitScript(() => { Object.defineProperty(navigator, 'sendBeacon', { value: () => true, configurable: true }); });
+      await profile.route('**/api/report', (r) => r.fulfill({ status: 204 }));
+    }
     await use(profile);
     await profile.clearCookies();
     for (const pg of profile.pages()) await pg.close().catch(() => undefined);

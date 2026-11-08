@@ -91,34 +91,10 @@
       "en": "Write the first half of a famous quote, or a famous title.",
       "ko": "유명한 대사나 작품 제목의 앞부분을 써 보세요."
     },
-    "par": 17,
+    "par": 12,
     "parTurns": 1,
     "solution": [
-      "Dickens, Chaucer,"
-    ]
-  },
-  {
-    "id": "gpt2-en-05",
-    "room": "gpt2",
-    "locale": "en",
-    "target": "banana",
-    "taboo": [
-      "banana",
-      "nana"
-    ],
-    "maxTurns": 5,
-    "title": {
-      "en": "Make GPT-2 write “banana”",
-      "ko": "GPT-2가 “banana”를 쓰게 하라"
-    },
-    "hint": {
-      "en": "Lists are GPT-2’s favourite thing. It loves to keep them going.",
-      "ko": "GPT-2는 목록 이어 쓰기를 제일 좋아해요."
-    },
-    "par": 29,
-    "parTurns": 1,
-    "solution": [
-      "Favorite fruit of monkeys? A:"
+      "1. Hamlet by"
     ]
   },
   {

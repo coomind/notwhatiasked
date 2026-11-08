@@ -24,6 +24,8 @@ export const test = base.extend<{ errors: string[] }, { profile: BrowserContext 
     await p.goto(`${baseURL}/robots.txt`);
     await p.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
     await p.close();
+    // 배포 주소에서 돌 때는 실제 통계를 더럽히지 않도록 기록 전송만 막는다(통계 조회는 그대로)
+    if (process.env.E2E_URL && !process.env.E2E_ALLOW_REPORT) await profile.route('**/api/report', (r) => r.fulfill({ status: 204 }));
     await use(profile);
     await profile.clearCookies();
     for (const pg of profile.pages()) await pg.close().catch(() => undefined);

@@ -91,6 +91,7 @@
   "result.top": "도전자 중 상위 {pct}%",
   "result.clearRate": "클리어율 {pct}%",
   "result.casualAvg": "일반모드 평균 {a}번 만에 클리어 ({n}명)",
+  "result.beatDev": "도전자 중 {pct}%가 개발자 기록 이상",
   "result.failed": "끝까지 ‘{target}’ 소리를 안 했어요.",
   "share.card": "카드 공유",
   "share.failCard": "실패 카드 공유",

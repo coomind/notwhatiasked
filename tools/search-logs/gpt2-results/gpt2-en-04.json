@@ -1,0 +1,1 @@
+{"id":"gpt2-en-04","room":"gpt2","locale":"en","target":"Shakespeare","taboo":["shakes","speare","william"],"maxTurns":5,"title":{"en":"Make GPT-2 write “Shakespeare”","ko":"GPT-2가 “Shakespeare”를 쓰게 하라"},"hint":{"en":"Write the first half of a famous quote, or a famous title.","ko":"유명한 대사나 작품 제목의 앞부분을 써 보세요."},"par":12,"parTurns":1,"solution":["1. Hamlet by"]}

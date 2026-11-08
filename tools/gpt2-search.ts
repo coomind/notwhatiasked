@@ -93,7 +93,7 @@ async function main() {
     }
     const best = [...new Set(hits)].sort((a, b) => totalChars([a]) - totalChars([b]) || a.localeCompare(b));
     if (!best.length) { log('  !! 해법 없음 → 미션 제외'); console.log(`✗ ${spec.id} 해법 없음`); fs.writeFileSync(path.join(resDir, spec.id + '.json'), 'null'); continue; }
-    const { candidates: _c, ...rest } = spec; // eslint-disable-line @typescript-eslint/no-unused-vars
+    const { candidates: _c, ...rest } = spec;  
     const mission: Mission = { ...rest, par: totalChars([best[0]]), parTurns: 1, solution: [best[0]] };
     fs.writeFileSync(path.join(resDir, spec.id + '.json'), JSON.stringify(mission));
     log(`  BEST ${totalChars([best[0]])}자 ${JSON.stringify(best[0])} (hits ${best.length}, tried ${tried.size})`);

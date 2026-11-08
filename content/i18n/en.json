@@ -91,6 +91,7 @@
   "result.top": "Top {pct}% of challengers",
   "result.clearRate": "Clear rate {pct}%",
   "result.casualAvg": "Casual players clear this in {a} tries on average ({n} players)",
+  "result.beatDev": "{pct}% of challengers matched or beat the developer record",
   "result.failed": "It never said “{target}”.",
   "share.card": "Share card",
   "share.failCard": "Share this failure",

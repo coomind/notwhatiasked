@@ -298,6 +298,7 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
                   <p className="big">{t('result.cleared', { n: play === 'challenge' ? roundInputs.length : attempts })}</p>
                   <p>{t('result.chars', { chars: myChars })}{play === 'challenge' && practice ? ` · ${t('challenge.practice')}` : ''}</p>
                   {cv && <p>{[cv.topPct ? t('result.top', { pct: cv.topPct }) : '', t('result.clearRate', { pct: cv.clearRate })].filter(Boolean).join(' · ')}</p>}
+                  {cv && stats?.m?.[sKey] && <p className="meta">{t('result.beatDev', { pct: stats.m[sKey].pb })}</p>}
                   {play === 'casual' && casualStat && casualStat.n >= MIN_SAMPLE && <p className="meta">{t('result.casualAvg', { a: casualStat.a, n: casualStat.n })}</p>}
                 </>
               ) : (
@@ -320,7 +321,7 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
         </section>
       )}
 
-      {!needsModel && (
+      {!needsModel && !ending && (
         <form className="inputbar" onSubmit={(e) => { e.preventDefault(); if (canSend) void send(input); }}>
           <div className="field">
             <div className="mirror" ref={mirrorRef} aria-hidden="true">{mirror}</div>

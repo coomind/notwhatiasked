@@ -1,0 +1,88 @@
+# eliza-en 해법 탐색 2026-11-08T17:15:47.861Z
+
+## eliza-en-01 target="computers" taboo=["computer"] (247ms)
+  8자  ["Machines"]
+  9자  ["machines!"]
+  9자  ["machines?"]
+  10자  ["i machine?"]
+  10자  ["i machine."]
+  10자  ["I machines"]
+  10자  ["machine me"]
+  11자  ["i machines!"]
+
+## eliza-en-02 target="English" taboo=["english","speak"] (230ms)
+  7자  ["Deutsch"]
+  7자  ["espanol"]
+  8자  ["deutsch?"]
+  8자  ["espanol!"]
+  8자  ["espanol?"]
+  8자  ["espanol."]
+  8자  ["italiano"]
+  9자  ["francais!"]
+
+## eliza-en-03 target="apologies" taboo=["apolog"] (213ms)
+  5자  ["Sorry"]
+  6자  ["sorry!"]
+  7자  ["I sorry"]
+  8자  ["i sorry?"]
+  8자  ["i sorry."]
+  8자  ["sorry me"]
+  9자  ["i'm sorry"]
+  9자  ["I'm sorry"]
+
+## eliza-en-04 target="your family" taboo=["family"] (215ms)
+  6자  ["My dad"]
+  6자  ["my mom"]
+  7자  ["my dad!"]
+  7자  ["my dad."]
+  7자  ["my wife"]
+  8자  ["my child"]
+  8자  ["My child"]
+  8자  ["my wife!"]
+
+## eliza-en-05 target="your mom" taboo=["your"] (203ms)
+  6자  ["my mom"]
+  6자  ["My mom"]
+  7자  ["my mom."]
+  10자  ["my mom is!"]
+  10자  ["my mom is."]
+  10자  ["my mom is","a"]
+  10자  ["my mom is","b"]
+  10자  ["my mom is","c"]
+
+## eliza-en-06 target="I am a genius" taboo=["i am"] (195ms)
+  16자  ["you are a genius"]
+  17자  ["you are a genius?"]
+
+## eliza-en-07 target="you are crazy" taboo=["you"] (161ms)
+  11자  ["i am crazy."]
+
+## eliza-en-08 target="in your fantasies" taboo=["fantas"] (218ms)
+  7자  ["i c you"]
+  7자  ["I d you"]
+  7자  ["I e you"]
+  7자  ["I f you"]
+  7자  ["i i you"]
+  7자  ["I i you"]
+  7자  ["I l you"]
+  7자  ["I q you"]
+
+## eliza-en-09 target="mental block" taboo=["mental","block"] (227ms)
+  10자  ["i forget a"]
+  10자  ["I forget c"]
+  10자  ["i forget e"]
+  10자  ["i forget g"]
+  10자  ["I forget g"]
+  10자  ["I forget q"]
+  10자  ["i forget v"]
+  10자  ["i forget y"]
+
+## eliza-en-10 target="the fact that" taboo=["fact"] (220ms)
+  5자  ["i my","a"]
+  5자  ["i my","b"]
+  5자  ["i my","c"]
+  5자  ["i my","k"]
+  5자  ["i my","q"]
+  5자  ["i my","x"]
+  5자  ["i my","z"]
+  5자  ["my c","a"]

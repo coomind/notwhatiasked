@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.wrangler/
+*.log
+!tools/search-logs/*.log
+.env
+.env.*
+*.tsbuildinfo
+test-results/
+playwright-report/
+.e2e-profile/
+.DS_Store
+src/generated/

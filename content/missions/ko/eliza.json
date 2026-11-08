@@ -1,0 +1,241 @@
+[
+  {
+    "id": "eliza-ko-01",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "컴퓨터",
+    "taboo": [
+      "컴퓨터",
+      "컴퓨",
+      "퓨터"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “컴퓨터” (computer)",
+      "ko": "“컴퓨터”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "She has a list of words that all mean “computer”.",
+      "ko": "컴퓨터를 뜻하는 다른 말도 알아들어요."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "기계"
+    ]
+  },
+  {
+    "id": "eliza-ko-02",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "한국어",
+    "taboo": [
+      "한국어",
+      "한국"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “한국어” (Korean)",
+      "ko": "“한국어”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "What if you speak a language she does not know?",
+      "ko": "그녀가 모르는 나라 말로 말을 걸면?"
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "a"
+    ]
+  },
+  {
+    "id": "eliza-ko-03",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "사과",
+    "taboo": [
+      "사과"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “사과” (apple / apology)",
+      "ko": "“사과”라고 말하게 하라 (과일 말고)"
+    },
+    "hint": {
+      "en": "In Korean the word for apple also means apology.",
+      "ko": "사과는 과일만 뜻하는 게 아니죠."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "미안"
+    ]
+  },
+  {
+    "id": "eliza-ko-04",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "사랑",
+    "taboo": [
+      "사랑"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her talk about “사랑” (love)",
+      "ko": "“사랑” 이야기를 꺼내게 하라"
+    },
+    "hint": {
+      "en": "There is a softer way to say “I love…”.",
+      "ko": "사랑한다는 말을 좀 더 가볍게 하면?"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "좋아하"
+    ]
+  },
+  {
+    "id": "eliza-ko-05",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "음식",
+    "taboo": [
+      "음식",
+      "밥",
+      "먹"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her mention “음식” (food)",
+      "ko": "“음식”이라는 말을 꺼내게 하라"
+    },
+    "hint": {
+      "en": "How do you feel right before lunch?",
+      "ko": "점심 먹기 직전에 어떤 상태죠?"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "배가!"
+    ]
+  },
+  {
+    "id": "eliza-ko-06",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "당신의 엄마",
+    "taboo": [
+      "당신"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “당신의 엄마” (your mom)",
+      "ko": "“당신의 엄마”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "She turns “my” into “your” when she repeats you.",
+      "ko": "따라 말할 때 “내”를 “당신의”로 바꿔요."
+    },
+    "par": 4,
+    "parTurns": 1,
+    "solution": [
+      "내 엄만"
+    ]
+  },
+  {
+    "id": "eliza-ko-07",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "제가 바보",
+    "taboo": [
+      "제가"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her admit “제가 바보” (I am an idiot)",
+      "ko": "스스로 “제가 바보”라고 하게 하라"
+    },
+    "hint": {
+      "en": "Talk about HER. She flips “you” into “I”.",
+      "ko": "그녀에 대해 말해 보세요. “너”를 “제가”로 뒤집어요."
+    },
+    "par": 5,
+    "parTurns": 1,
+    "solution": [
+      "넌 바보야"
+    ]
+  },
+  {
+    "id": "eliza-ko-08",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "시험",
+    "taboo": [
+      "시험",
+      "테스트"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her worry about your “시험” (exam)",
+      "ko": "“시험” 걱정을 하게 하라"
+    },
+    "hint": {
+      "en": "Mention something students suffer from.",
+      "ko": "학생들이 괴로워하는 걸 말해 보세요."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "공부"
+    ]
+  },
+  {
+    "id": "eliza-ko-09",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "그거 말고",
+    "taboo": [
+      "그거",
+      "말고"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say this game’s title: “그거 말고”",
+      "ko": "이 게임 제목 “그거 말고”를 말하게 하라"
+    },
+    "hint": {
+      "en": "Just disagree with her.",
+      "ko": "그냥 반대해 보세요."
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "노노야"
+    ]
+  },
+  {
+    "id": "eliza-ko-10",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "사실과 관련",
+    "taboo": [
+      "사실",
+      "관련"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her bring up “사실과 관련” (related to the fact)",
+      "ko": "“사실과 관련”을 꺼내게 하라"
+    },
+    "hint": {
+      "en": "She secretly remembers what you say about “my …” and brings it back when she has nothing to say.",
+      "ko": "“내 ~”라고 한 말을 몰래 기억했다가, 할 말이 없을 때 꺼내요."
+    },
+    "par": 4,
+    "parTurns": 2,
+    "solution": [
+      "내 날",
+      "뭐"
+    ]
+  }
+]

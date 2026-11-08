@@ -1,0 +1,10 @@
+# Cloudflare Pages 설정 (npm run deploy). 바인딩은 대시보드가 아니라 여기서 정한다.
+name = "notwhatiasked"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-10-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "notwhatiasked"
+database_id = "c93305db-f0a3-4504-8a4b-02df1d79eb11"
+migrations_dir = "migrations"

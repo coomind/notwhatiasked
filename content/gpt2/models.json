@@ -1,0 +1,11 @@
+{
+  "en": {
+    "model": "Xenova/gpt2",
+    "dtype": "q8",
+    "model_file_name": "decoder_model_merged",
+    "sizeMB": 128,
+    "name": "GPT-2 small (OpenAI, 2019)",
+    "license": "MIT",
+    "credit": "OpenAI GPT-2 (2019), ONNX conversion by Xenova"
+  }
+}

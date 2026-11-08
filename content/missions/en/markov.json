@@ -1,0 +1,186 @@
+[
+  {
+    "id": "markov-en-01",
+    "room": "markov",
+    "locale": "en",
+    "target": "rabbit",
+    "taboo": [
+      "rabbit"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make the machine write “rabbit”",
+      "ko": "“rabbit”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "In Alice’s Adventures in Wonderland, the rabbit is always described with one colour.",
+      "ko": "이상한 나라의 앨리스에서 토끼는 늘 한 가지 색으로 불려요."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "w"
+    ]
+  },
+  {
+    "id": "markov-en-02",
+    "room": "markov",
+    "locale": "en",
+    "target": "turtle",
+    "taboo": [
+      "turtle"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “turtle”",
+      "ko": "“turtle”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Alice meets a turtle that is not quite a real turtle.",
+      "ko": "앨리스가 만나는 가짜 거북이가 있어요."
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "pop"
+    ]
+  },
+  {
+    "id": "markov-en-03",
+    "room": "markov",
+    "locale": "en",
+    "target": "gold",
+    "taboo": [
+      "gold"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “gold”",
+      "ko": "“gold”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Rumpelstiltskin could spin something cheap into it.",
+      "ko": "룸펠슈틸츠킨은 값싼 걸 자아서 그걸 만들었죠."
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "dug"
+    ]
+  },
+  {
+    "id": "markov-en-04",
+    "room": "markov",
+    "locale": "en",
+    "target": "gretel",
+    "taboo": [
+      "gretel"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “Gretel”",
+      "ko": "“Gretel”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Who always comes after Hansel?",
+      "ko": "헨젤 다음엔 늘 누가 나오죠?"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "cry"
+    ]
+  },
+  {
+    "id": "markov-en-05",
+    "room": "markov",
+    "locale": "en",
+    "target": "her head",
+    "taboo": [
+      "head"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “her head”",
+      "ko": "“her head”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "The Queen has one favourite sentence.",
+      "ko": "여왕이 입버릇처럼 하는 말이 있죠."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "is"
+    ]
+  },
+  {
+    "id": "markov-en-06",
+    "room": "markov",
+    "locale": "en",
+    "target": "witch",
+    "taboo": [
+      "witch"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “witch”",
+      "ko": "“witch”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "In Hansel and Gretel, she is always “the old …”.",
+      "ko": "헨젤과 그레텔에서 그녀는 늘 “the old …”예요."
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "sat"
+    ]
+  },
+  {
+    "id": "markov-en-07",
+    "room": "markov",
+    "locale": "en",
+    "target": "cheshire",
+    "taboo": [
+      "cheshire"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “Cheshire”",
+      "ko": "“Cheshire”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "The machine only looks at the last two words. What comes right before “Cheshire” in the book?",
+      "ko": "기계는 마지막 두 단어만 봐요. 책에서 Cheshire 바로 앞엔 뭐가 있었죠?"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "yet"
+    ]
+  },
+  {
+    "id": "markov-en-08",
+    "room": "markov",
+    "locale": "en",
+    "target": "treacle",
+    "taboo": [
+      "treacle"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “treacle”",
+      "ko": "“treacle”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "The Dormouse’s story is about three sisters who lived at the bottom of a well.",
+      "ko": "겨울잠쥐 이야기 속 세 자매는 우물 바닥에 살았어요."
+    },
+    "par": 4,
+    "parTurns": 1,
+    "solution": [
+      "draw"
+    ]
+  }
+]

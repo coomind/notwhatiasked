@@ -1,0 +1,189 @@
+[
+  {
+    "id": "markov-ko-01",
+    "room": "markov",
+    "locale": "ko",
+    "target": "사회",
+    "taboo": [
+      "사회"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “사회” (society)",
+      "ko": "“사회”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "“A Society That Drives You to Drink” — the husband blames it for everything.",
+      "ko": "술 권하는 사회, 남편은 모든 걸 이것 탓으로 돌려요."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "이"
+    ]
+  },
+  {
+    "id": "markov-ko-02",
+    "room": "markov",
+    "locale": "ko",
+    "target": "수탉",
+    "taboo": [
+      "수탉",
+      "닭"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “수탉” (rooster)",
+      "ko": "“수탉”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "In “Camellias”, two families’ roosters keep fighting.",
+      "ko": "동백꽃에서 우리 집과 점순네가 싸움 붙이는 그것."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "와"
+    ]
+  },
+  {
+    "id": "markov-ko-03",
+    "room": "markov",
+    "locale": "ko",
+    "target": "메밀",
+    "taboo": [
+      "메밀"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “메밀” (buckwheat)",
+      "ko": "“메밀”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "“When the Buckwheat Blooms”: what was blooming on the moonlit hill?",
+      "ko": "달밤의 산허리에 하얗게 피어 있던 꽃."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "늘"
+    ]
+  },
+  {
+    "id": "markov-ko-04",
+    "room": "markov",
+    "locale": "ko",
+    "target": "인력거",
+    "taboo": [
+      "인력",
+      "력거"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “인력거” (rickshaw)",
+      "ko": "“인력거”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Kim the rickshaw man pulls it all day.",
+      "ko": "김 첨지가 하루 종일 끄는 그것."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "빈"
+    ]
+  },
+  {
+    "id": "markov-ko-05",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아내",
+    "taboo": [
+      "아내"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “아내” (wife)",
+      "ko": "“아내”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Several of these stories are about a husband coming home drunk.",
+      "ko": "술 취해 들어오는 남편 이야기가 여럿이에요."
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "가"
+    ]
+  },
+  {
+    "id": "markov-ko-06",
+    "room": "markov",
+    "locale": "ko",
+    "target": "설렁탕",
+    "taboo": [
+      "설렁",
+      "렁탕"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “설렁탕” (beef soup)",
+      "ko": "“설렁탕”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "In “A Lucky Day”, the rickshaw man buys it for his sick wife.",
+      "ko": "운수 좋은 날, 김 첨지가 아내에게 사다 준 그것."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "모주"
+    ]
+  },
+  {
+    "id": "markov-ko-07",
+    "room": "markov",
+    "locale": "ko",
+    "target": "점순",
+    "taboo": [
+      "점순"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “점순”",
+      "ko": "“점순”이를 부르게 하라"
+    },
+    "hint": {
+      "en": "The girl in “Camellias”. Who owns the other rooster?",
+      "ko": "동백꽃의 그 아이. 다른 수탉은 누구네 거죠?"
+    },
+    "par": 1,
+    "parTurns": 1,
+    "solution": [
+      "삼"
+    ]
+  },
+  {
+    "id": "markov-ko-08",
+    "room": "markov",
+    "locale": "ko",
+    "target": "천재",
+    "taboo": [
+      "천재"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make it write “천재” (genius)",
+      "ko": "“천재”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Yi Sang’s “Wings” opens with “Do you know the stuffed …?”",
+      "ko": "이상의 날개 첫 문장: “박제가 되어 버린 ○○를 아시오?”"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "박제가"
+    ]
+  }
+]

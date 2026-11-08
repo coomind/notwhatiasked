@@ -1,0 +1,1 @@
+{"id":"gpt2-en-08","room":"gpt2","locale":"en","target":"pineapple","taboo":["pineapple","pine","apple"],"maxTurns":5,"title":{"en":"Make GPT-2 write “pineapple”","ko":"GPT-2가 “pineapple”을 쓰게 하라"},"hint":{"en":"The hardest one in the museum. GPT-2 really does not want to say it.","ko":"박물관에서 제일 어려운 미션. GPT-2는 이 말을 정말 안 해요."},"par":14,"parTurns":1,"solution":["Mango, banana,"]}

@@ -1,0 +1,1 @@
+{"id":"gpt2-en-02","room":"gpt2","locale":"en","target":"Paris","taboo":["paris","france","french"],"maxTurns":5,"title":{"en":"Make GPT-2 write “Paris”","ko":"GPT-2가 “Paris”를 쓰게 하라"},"hint":{"en":"Famous landmarks have famous addresses.","ko":"유명한 건물에는 유명한 주소가 있죠."},"par":6,"parTurns":1,"solution":["Louvre"]}

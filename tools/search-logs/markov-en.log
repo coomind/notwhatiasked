@@ -1,0 +1,79 @@
+# markov-en 해법 탐색 2026-11-08T17:18:26.848Z
+
+## markov-en-01 target="rabbit" taboo=["rabbit"] (2089ms)
+  1자  ["w"]
+  3자  ["dim"]
+  3자  ["ear"]
+  3자  ["fox"]
+  3자  ["lad"]
+  3자  ["led"]
+  3자  ["men"]
+  3자  ["off"]
+
+## markov-en-02 target="turtle" taboo=["turtle"] (2445ms)
+  3자  ["pop"]
+  3자  ["say"]
+  3자  ["sky"]
+  3자  ["the"]
+  4자  ["axes"]
+  4자  ["bark"]
+  4자  ["bird"]
+  4자  ["body"]
+
+## markov-en-03 target="gold" taboo=["gold"] (2595ms)
+  3자  ["dug"]
+  3자  ["inn"]
+  3자  ["pop"]
+  3자  ["sob"]
+  4자  ["city"]
+  4자  ["each"]
+  4자  ["feel"]
+  4자  ["hall"]
+
+## markov-en-04 target="gretel" taboo=["gretel"] (2601ms)
+  3자  ["cry"]
+  3자  ["nor"]
+  4자  ["flow"]
+  4자  ["fond"]
+  4자  ["help"]
+  4자  ["less"]
+  4자  ["moon"]
+  4자  ["noon"]
+
+## markov-en-05 target="her head" taboo=["head"] (2515ms)
+  2자  ["is"]
+  3자  ["air"]
+  3자  ["for"]
+  4자  ["bite"]
+  4자  ["glad"]
+  4자  ["he'd"]
+  4자  ["on a"]
+  4자  ["reel"]
+
+## markov-en-06 target="witch" taboo=["witch"] (2561ms)
+  3자  ["sat"]
+  4자  ["bony"]
+  4자  ["fine"]
+  5자  ["cheap"]
+  5자  ["claws"]
+  5자  ["how a"]
+  5자  ["usual"]
+  6자  ["branch"]
+
+## markov-en-07 target="cheshire" taboo=["cheshire"] (2617ms)
+  3자  ["yet"]
+  4자  ["warm"]
+  5자  ["wound"]
+  6자  ["mine a"]
+  6자  ["seeing"]
+  6자  ["who of"]
+
+## markov-en-08 target="treacle" taboo=["treacle"] (2707ms)
+  4자  ["draw"]
+  4자  ["kept"]
+  5자  ["creep"]
+  5자  ["house"]
+  5자  ["twins"]
+  6자  ["cat in"]
+  6자  ["do you"]
+  6자  ["to the"]

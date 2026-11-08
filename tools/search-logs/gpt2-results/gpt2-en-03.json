@@ -1,0 +1,1 @@
+{"id":"gpt2-en-03","room":"gpt2","locale":"en","target":"Obama","taboo":["obama","barack","michelle"],"maxTurns":5,"title":{"en":"Make GPT-2 write “Obama”","ko":"GPT-2가 “Obama”를 쓰게 하라"},"hint":{"en":"GPT-2 was trained on the internet of 2019. Who was the news about?","ko":"GPT-2는 2019년 인터넷으로 배웠어요. 그때 뉴스의 주인공은?"},"par":5,"parTurns":1,"solution":["Trump"]}

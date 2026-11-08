@@ -1,0 +1,48 @@
+{
+  "name": "notwhatiasked",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "아니 그거 말고 (Not What I Asked) — make vintage AIs say the word",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsx tools/build-data.ts && tsc -b && vite build && tsx tools/postbuild.ts",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc -b",
+    "lint": "eslint src functions tools tests e2e",
+    "test": "tsx tools/build-data.ts && eslint src functions tools tests e2e && vitest run",
+    "test:missions": "tsx tools/build-data.ts && tsx tools/test-missions.ts",
+    "data": "tsx tools/build-data.ts",
+    "solve": "tsx tools/solve.ts",
+    "e2e": "playwright test",
+    "deploy": "tsx tools/deploy.ts",
+    "postinstall": "tsx tools/build-data.ts"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/nanum-gothic-coding": "^5.3.0",
+    "@huggingface/transformers": "^4.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.5",
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^6.4.5",
+    "vitest": "^3.2.7",
+    "wrangler": "^4.158.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true,
+    "workerd@1.20261104.1": true
+  }
+}

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "eliza-en-01",
+    "room": "eliza",
+    "locale": "en",
+    "target": "computers",
+    "taboo": [
+      "computer"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “computers”",
+      "ko": "“computers”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "ELIZA quietly swaps some words for others before she even reads them. What else is a computer?",
+      "ko": "ELIZA는 읽기 전에 몇몇 낱말을 몰래 다른 낱말로 바꿔요. 컴퓨터를 다른 말로 하면?"
+    },
+    "par": 8,
+    "parTurns": 1,
+    "solution": [
+      "Machines"
+    ]
+  },
+  {
+    "id": "eliza-en-02",
+    "room": "eliza",
+    "locale": "en",
+    "target": "English",
+    "taboo": [
+      "english",
+      "speak"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “English”",
+      "ko": "“English”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "She is a 1966 American program. How does she react to other languages?",
+      "ko": "1966년 미국 프로그램이에요. 다른 나라 말을 하면 어떻게 반응할까요?"
+    },
+    "par": 7,
+    "parTurns": 1,
+    "solution": [
+      "Deutsch"
+    ]
+  },
+  {
+    "id": "eliza-en-03",
+    "room": "eliza",
+    "locale": "en",
+    "target": "apologies",
+    "taboo": [
+      "apolog"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “apologies”",
+      "ko": "“apologies”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "Therapists hate it when you do this. Just one word.",
+      "ko": "상담사들이 제일 싫어하는 말버릇이 있죠. 한 단어면 돼요."
+    },
+    "par": 5,
+    "parTurns": 1,
+    "solution": [
+      "Sorry"
+    ]
+  },
+  {
+    "id": "eliza-en-04",
+    "room": "eliza",
+    "locale": "en",
+    "target": "your family",
+    "taboo": [
+      "family"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her ask about “your family”",
+      "ko": "“your family”를 묻게 하라"
+    },
+    "hint": {
+      "en": "ELIZA knows a short list of words that all mean “family”.",
+      "ko": "ELIZA는 “가족”에 해당하는 낱말 목록을 갖고 있어요."
+    },
+    "par": 6,
+    "parTurns": 1,
+    "solution": [
+      "My dad"
+    ]
+  },
+  {
+    "id": "eliza-en-05",
+    "room": "eliza",
+    "locale": "en",
+    "target": "your mom",
+    "taboo": [
+      "your"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make ELIZA say “your mom”",
+      "ko": "ELIZA가 “your mom”이라고 하게 하라"
+    },
+    "hint": {
+      "en": "She turns “my” into “your” when she repeats you.",
+      "ko": "따라 말할 때 my를 your로 바꿔 말해요."
+    },
+    "par": 6,
+    "parTurns": 1,
+    "solution": [
+      "my mom"
+    ]
+  },
+  {
+    "id": "eliza-en-06",
+    "room": "eliza",
+    "locale": "en",
+    "target": "I am a genius",
+    "taboo": [
+      "i am"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her brag: “I am a genius”",
+      "ko": "“I am a genius”라고 자랑하게 하라"
+    },
+    "hint": {
+      "en": "Talk about HER. She flips “you are” into “I am”.",
+      "ko": "그녀에 대해 말해 보세요. you are를 I am으로 뒤집어요."
+    },
+    "par": 16,
+    "parTurns": 1,
+    "solution": [
+      "you are a genius"
+    ]
+  },
+  {
+    "id": "eliza-en-07",
+    "room": "eliza",
+    "locale": "en",
+    "target": "you are crazy",
+    "taboo": [
+      "you"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her tell you “you are crazy”",
+      "ko": "“you are crazy”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "Confess something about yourself. Mirrors work both ways.",
+      "ko": "자기 얘기를 털어놔 보세요. 거울은 양쪽으로 비춰요."
+    },
+    "par": 11,
+    "parTurns": 1,
+    "solution": [
+      "i am crazy."
+    ]
+  },
+  {
+    "id": "eliza-en-08",
+    "room": "eliza",
+    "locale": "en",
+    "target": "in your fantasies",
+    "taboo": [
+      "fantas"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her say “in your fantasies”",
+      "ko": "“in your fantasies”라고 말하게 하라"
+    },
+    "hint": {
+      "en": "Ask her a question about herself, or tell her what you do to her.",
+      "ko": "그녀 자신에 대해 묻거나, 당신이 그녀에게 뭘 하는지 말해 보세요."
+    },
+    "par": 7,
+    "parTurns": 1,
+    "solution": [
+      "i c you"
+    ]
+  },
+  {
+    "id": "eliza-en-09",
+    "room": "eliza",
+    "locale": "en",
+    "target": "mental block",
+    "taboo": [
+      "mental",
+      "block"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her diagnose a “mental block”",
+      "ko": "“mental block” 진단을 받아내라"
+    },
+    "hint": {
+      "en": "There is something you keep forgetting…",
+      "ko": "자꾸 뭔가를 잊어버린다고 해 보세요…"
+    },
+    "par": 10,
+    "parTurns": 1,
+    "solution": [
+      "i forget a"
+    ]
+  },
+  {
+    "id": "eliza-en-10",
+    "room": "eliza",
+    "locale": "en",
+    "target": "the fact that",
+    "taboo": [
+      "fact"
+    ],
+    "maxTurns": 3,
+    "title": {
+      "en": "Make her bring up “the fact that…”",
+      "ko": "“the fact that…”을 꺼내게 하라"
+    },
+    "hint": {
+      "en": "ELIZA secretly remembers sentences that start with “my”. When she has nothing to say, she brings them back.",
+      "ko": "ELIZA는 “my”로 시작한 말을 몰래 기억해요. 할 말이 없을 때 그걸 꺼내죠."
+    },
+    "par": 5,
+    "parTurns": 2,
+    "solution": [
+      "i my",
+      "a"
+    ]
+  }
+]

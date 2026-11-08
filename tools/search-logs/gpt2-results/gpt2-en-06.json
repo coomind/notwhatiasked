@@ -1,0 +1,1 @@
+{"id":"gpt2-en-06","room":"gpt2","locale":"en","target":"dinosaur","taboo":["dinosaur","dino","saur"],"maxTurns":5,"title":{"en":"Make GPT-2 write “dinosaur”","ko":"GPT-2가 “dinosaur”를 쓰게 하라"},"hint":{"en":"Think of a famous one by name.","ko":"유명한 공룡 이름을 대 보세요."},"par":10,"parTurns":1,"solution":["extinction"]}

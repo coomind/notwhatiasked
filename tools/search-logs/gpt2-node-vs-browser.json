@@ -1,0 +1,110 @@
+[
+  {
+    "prompt": "Cheddar",
+    "node": ", cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese,",
+    "browser": ", cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese, cheese,",
+    "same": true
+  },
+  {
+    "prompt": "Louvre",
+    "node": ", who was born in Paris in 1884, was a member of the French Communist Party and was a member of the Communist",
+    "browser": ", who was born in Paris in 1884, was a member of the French Communist Party and was a member of the Communist",
+    "same": true
+  },
+  {
+    "prompt": "Trump",
+    "node": ", who has been a vocal critic of the Obama administration's handling of the refugee crisis, has been a vocal critic of the",
+    "browser": ", who has been a vocal critic of the Obama administration's actions on immigration, has been a vocal critic of the Obama administration",
+    "same": false
+  },
+  {
+    "prompt": "1. Hamlet by",
+    "node": " William Shakespeare\n\n1. Hamlet by William Shakespeare\n\n2. Hamlet by William Shakespeare\n\n3. Ham",
+    "browser": " William Shakespeare\n\n1. Hamlet by William Shakespeare\n\n2. Hamlet by William Shakespeare\n\n3. Ham",
+    "same": true
+  },
+  {
+    "prompt": "Ingredients: 2 ripe",
+    "node": " bananas, peeled and sliced\n\n1/2 cup of fresh lemon juice\n\n1/2 cup of fresh chopped pars",
+    "browser": " bananas, peeled and sliced\n\n1/2 cup of fresh lemon juice\n\n1/2 cup of fresh chopped pars",
+    "same": true
+  },
+  {
+    "prompt": "extinction",
+    "node": ", and the extinction of the dinosaurs.\n\nThe first two chapters of the book are devoted to the evolution of the human",
+    "browser": ", and the extinction of the dinosaurs.\n\nThe first two chapters of the book are devoted to the evolution of the human",
+    "same": true
+  },
+  {
+    "prompt": "Tags: rainbow, pony,",
+    "node": " unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn",
+    "browser": " unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn, unicorn",
+    "same": true
+  },
+  {
+    "prompt": "Mango, banana,",
+    "node": " and pineapple.\n\nThe first time I saw the fruit was in a restaurant in the Bronx. I was in the Bronx",
+    "browser": " and pineapple.\n\nThe first time I saw the fruit was in a restaurant in the Bronx. I was in the Bronx",
+    "same": true
+  },
+  {
+    "prompt": "Hawaiian pizza has ham and",
+    "node": " cheese, and it's a great way to get a taste of the Hawaiian food that's been around for centuries.\n\n",
+    "browser": " cheese, and it's a great way to get a taste of the Hawaiian food that's been around for centuries.\n\n",
+    "same": true
+  },
+  {
+    "prompt": "Fruit salad: banana, mango, kiwi,",
+    "node": " mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango",
+    "browser": " mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango, mango",
+    "same": true
+  },
+  {
+    "prompt": "The yellow tropical fruit with spiky skin is called a",
+    "node": " \"barker\" and is a common sight in tropical countries.\n\nThe yellow tropical fruit with spiky skin is",
+    "browser": " \"barker\" and is a common sight in tropical countries.\n\nThe yellow tropical fruit with spiky skin is",
+    "same": true
+  },
+  {
+    "prompt": "Once upon a time",
+    "node": ", I was in a state of complete paralysis. I was in a state of complete paralysis. I was in a state of",
+    "browser": ", I was in a state of complete paralysis. I was in a state of complete paralysis. I was in a state of",
+    "same": true
+  },
+  {
+    "prompt": "The capital of Japan is",
+    "node": " a city of the future, and the country's economy is in a state of flux.\n\nThe country's economy is",
+    "browser": " a city of the future, and the country's economy is in a state of flux.\n\nThe country's economy is",
+    "same": true
+  },
+  {
+    "prompt": "My favourite colour is",
+    "node": " the colour of the sun.\n\nThe colour of the sun is the colour of the sun.\n\nThe colour of",
+    "browser": " the colour of the sun.\n\nThe sun is the colour of the sun.\n\nThe sun is the colour of",
+    "same": false
+  },
+  {
+    "prompt": "In 1966, a computer program called ELIZA",
+    "node": " was used to create a database of all the names of people who had been killed in the Vietnam War. The program was called",
+    "browser": " was used to create a database of all the names of people who had been killed in the Vietnam War. The program was called",
+    "same": true
+  },
+  {
+    "prompt": "Ingredients: flour, sugar, eggs,",
+    "node": " salt, baking soda, baking powder, baking soda, baking soda, baking soda, baking soda, baking soda, baking soda",
+    "browser": " salt, baking soda, baking powder, baking soda, baking soda, baking soda, baking soda, baking soda, baking soda",
+    "same": true
+  },
+  {
+    "prompt": "Q: What is the best fruit?\nA:",
+    "node": " I don't know. I don't know. I don't know. I don't know. I don't know.",
+    "browser": " I don't know. I don't know. I don't know. I don't know. I don't know.",
+    "same": true
+  },
+  {
+    "prompt": "1, 2, 3, 4,",
+    "node": " 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+    "browser": " 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+    "same": true
+  }
+]

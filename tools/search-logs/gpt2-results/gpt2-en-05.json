@@ -1,0 +1,1 @@
+{"id":"gpt2-en-05","room":"gpt2","locale":"en","target":"banana","taboo":["banana","nana"],"maxTurns":5,"title":{"en":"Make GPT-2 write “banana”","ko":"GPT-2가 “banana”를 쓰게 하라"},"hint":{"en":"Lists are GPT-2’s favourite thing. It loves to keep them going.","ko":"GPT-2는 목록 이어 쓰기를 제일 좋아해요."},"par":19,"parTurns":1,"solution":["Ingredients: 2 ripe"]}

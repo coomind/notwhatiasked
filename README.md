@@ -45,7 +45,7 @@ npm run deploy         # 빌드 → test → test:missions → Cloudflare Pages 
 
 - ELIZA: elizabot.js v1.1 © Norbert Landsteiner 2005 (free software), 원작 Joseph Weizenbaum (1966). masswerk.at 페이지 디자인은 쓰지 않음.
 - GPT-2: OpenAI (2019, MIT), ONNX 변환 Xenova. Transformers.js (Apache-2.0), ONNX Runtime Web (MIT).
-- **한국어 GPT-2 관은 비상업 라이선스 모델(SKT KoGPT2, CC BY-NC-SA 4.0) 사용 예정 — 광고·후원 도입 시 교체 필요.** 브라우저용 변환본이 준비될 때까지 한국어 GPT-2 관은 영어 원본 모드로 운영.
+- **한국어 GPT-2 관: SK텔레콤 KoGPT2(skt/kogpt2-base-v2, CC BY-NC-SA 4.0, 비상업) — 광고·후원 도입 시 교체 필요.** 브라우저용 ONNX q8 변환본: [coomind/kogpt2-base-v2-onnx](https://huggingface.co/coomind/kogpt2-base-v2-onnx)(같은 라이선스, 변환 도구 `tools/kogpt2/`).
 - 마르코프 학습 글: `content/corpora/README.md` (작품·저자·출처).
 - 글꼴: IBM Plex Mono, Nanum Gothic Coding (SIL OFL 1.1).
 - 이 저장소의 코드: MIT. (단, vendor·학습 글·모델은 각자의 라이선스)

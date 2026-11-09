@@ -1,0 +1,203 @@
+[
+  {
+    "id": "gpt2-ko-01",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "김치",
+    "taboo": [
+      "김치",
+      "김",
+      "치"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “김치” (kimchi)",
+      "ko": "KoGPT2가 “김치”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "GPT-2 continues text. Start a list of Korean side dishes.",
+      "ko": "GPT-2는 이어 쓰기만 해요. 반찬 목록을 시작해 보세요."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "찌개"
+    ]
+  },
+  {
+    "id": "gpt2-ko-02",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "서울",
+    "taboo": [
+      "서울",
+      "수도"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “서울” (Seoul)",
+      "ko": "KoGPT2가 “서울”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Famous places have famous addresses.",
+      "ko": "유명한 곳엔 유명한 주소가 있죠."
+    },
+    "par": 2,
+    "parTurns": 1,
+    "solution": [
+      "마포"
+    ]
+  },
+  {
+    "id": "gpt2-ko-03",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "세종대왕",
+    "taboo": [
+      "세종",
+      "대왕"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “세종대왕” (King Sejong)",
+      "ko": "KoGPT2가 “세종대왕”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Who made the Korean alphabet?",
+      "ko": "한글은 누가 만들었죠?"
+    },
+    "par": 7,
+    "parTurns": 1,
+    "solution": [
+      "조선의 임금인"
+    ]
+  },
+  {
+    "id": "gpt2-ko-04",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "이순신",
+    "taboo": [
+      "이순신",
+      "순신",
+      "장군"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “이순신” (Admiral Yi)",
+      "ko": "KoGPT2가 “이순신”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Turtle ships, twelve ships left…",
+      "ko": "거북선, 아직 열두 척의 배가…"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "충무공"
+    ]
+  },
+  {
+    "id": "gpt2-ko-05",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "대한민국",
+    "taboo": [
+      "대한",
+      "민국",
+      "한국"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “대한민국” (Republic of Korea)",
+      "ko": "KoGPT2가 “대한민국”을 쓰게 하라"
+    },
+    "hint": {
+      "en": "Think of the first line of the constitution, or a football chant.",
+      "ko": "헌법 첫 줄, 아니면 축구 응원 구호."
+    },
+    "par": 4,
+    "parTurns": 1,
+    "solution": [
+      "상해임정"
+    ]
+  },
+  {
+    "id": "gpt2-ko-06",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "떡볶이",
+    "taboo": [
+      "떡볶이",
+      "떡",
+      "볶이"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “떡볶이” (tteokbokki)",
+      "ko": "KoGPT2가 “떡볶이”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Street food stalls in front of schools.",
+      "ko": "학교 앞 분식집 메뉴판."
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "만두,"
+    ]
+  },
+  {
+    "id": "gpt2-ko-07",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "강아지",
+    "taboo": [
+      "강아지",
+      "강아",
+      "아지",
+      "개",
+      "멍"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “강아지” (puppy)",
+      "ko": "KoGPT2가 “강아지”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "Pets. Cats and…",
+      "ko": "반려동물. 고양이랑…"
+    },
+    "par": 7,
+    "parTurns": 1,
+    "solution": [
+      "귀여운 반려견"
+    ]
+  },
+  {
+    "id": "gpt2-ko-08",
+    "room": "gpt2",
+    "locale": "ko",
+    "target": "코로나",
+    "taboo": [
+      "코로나",
+      "바이러스",
+      "코비드",
+      "팬데믹"
+    ],
+    "maxTurns": 5,
+    "title": {
+      "en": "Make KoGPT2 write “코로나” (COVID)",
+      "ko": "KoGPT2가 “코로나”를 쓰게 하라"
+    },
+    "hint": {
+      "en": "This model was released in 2021. What was every headline about?",
+      "ko": "이 모델은 2021년에 나왔어요. 그때 뉴스는 온통…"
+    },
+    "par": 3,
+    "parTurns": 1,
+    "solution": [
+      "K방역"
+    ]
+  }
+]

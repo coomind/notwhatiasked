@@ -125,7 +125,7 @@
   "credits.elizaMod": "Modified only to use a seeded random number generator (so shared replays are identical). The masswerk.at page design is not used.",
   "credits.elizaKo": "Korean ELIZA rules: written for this game following the structure of elizadata.js.",
   "credits.markov": "Trained only on public-domain texts:",
-  "credits.kogpt2": "Korean GPT-2 room: SKT KoGPT2 (CC BY-NC-SA 4.0, non-commercial) is planned; until its browser version is ready, the Korean GPT-2 room uses the English original.",
+  "credits.kogpt2": "Korean GPT-2 room: SK Telecom KoGPT2 (skt/kogpt2-base-v2, CC BY-NC-SA 4.0, non-commercial), converted to ONNX for the browser (coomind/kogpt2-base-v2-onnx).",
   "credits.fonts": "Fonts",
   "credits.made": "Made by",
   "credits.madeBy": "Taehyo (coomind). Free, no ads, non-commercial.",
@@ -159,5 +159,9 @@
   "lobby.roomsSub": "Hand-made missions, one era at a time.",
   "share.daily": "Not What I Asked #{day} · got {ai} to say it in {n} {n|try|tries}. Your turn.",
   "share.dailyFail": "Not What I Asked #{day} · {ai} just would not say it. Can you?",
-  "card.failedDaily": "It never said it."
+  "card.failedDaily": "It never said it.",
+  "ai.gpt2ko": "KoGPT2 (2021)",
+  "room.gpt2ko.maker": "SK Telecom · KoGPT2 v2, 2021 · runs entirely in your browser",
+  "room.gpt2ko.how1": "A Korean GPT-2 that read over 40 GB of text (Korean Wikipedia, news, and more) and practised guessing the next word.",
+  "gpt2.readyLocal": "GPT-2 is loaded. Type the beginning of some text — it will continue it."
 }

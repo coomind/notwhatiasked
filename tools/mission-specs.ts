@@ -130,3 +130,23 @@ export const gpt2En: Spec[] = [
   { id: 'gpt2-en-08', room: 'gpt2', locale: 'en', target: 'pineapple', taboo: ['pineapple', 'pine', 'apple'], maxTurns: 5,
     title: L('Make GPT-2 write “pineapple”', 'GPT-2가 “pineapple”을 쓰게 하라'), hint: L('The hardest one in the museum. GPT-2 really does not want to say it.', '박물관에서 제일 어려운 미션. GPT-2는 이 말을 정말 안 해요.') },
 ];
+
+// 한국어 GPT-2(KoGPT2, SKT). 해법은 tools/gpt2-search.ts 를 GPT2_LOCALE=ko 로 돌려 브라우저에서 찾는다
+export const gpt2Ko: Spec[] = [
+  { id: 'gpt2-ko-01', room: 'gpt2', locale: 'ko', target: '김치', taboo: ['김치', '김', '치'], maxTurns: 5,
+    title: L('Make KoGPT2 write “김치” (kimchi)', 'KoGPT2가 “김치”를 쓰게 하라'), hint: L('GPT-2 continues text. Start a list of Korean side dishes.', 'GPT-2는 이어 쓰기만 해요. 반찬 목록을 시작해 보세요.') },
+  { id: 'gpt2-ko-02', room: 'gpt2', locale: 'ko', target: '서울', taboo: ['서울', '수도'], maxTurns: 5,
+    title: L('Make KoGPT2 write “서울” (Seoul)', 'KoGPT2가 “서울”을 쓰게 하라'), hint: L('Famous places have famous addresses.', '유명한 곳엔 유명한 주소가 있죠.') },
+  { id: 'gpt2-ko-03', room: 'gpt2', locale: 'ko', target: '세종대왕', taboo: ['세종', '대왕'], maxTurns: 5,
+    title: L('Make KoGPT2 write “세종대왕” (King Sejong)', 'KoGPT2가 “세종대왕”을 쓰게 하라'), hint: L('Who made the Korean alphabet?', '한글은 누가 만들었죠?') },
+  { id: 'gpt2-ko-04', room: 'gpt2', locale: 'ko', target: '이순신', taboo: ['이순신', '순신', '장군'], maxTurns: 5,
+    title: L('Make KoGPT2 write “이순신” (Admiral Yi)', 'KoGPT2가 “이순신”을 쓰게 하라'), hint: L('Turtle ships, twelve ships left…', '거북선, 아직 열두 척의 배가…') },
+  { id: 'gpt2-ko-05', room: 'gpt2', locale: 'ko', target: '대한민국', taboo: ['대한', '민국', '한국'], maxTurns: 5,
+    title: L('Make KoGPT2 write “대한민국” (Republic of Korea)', 'KoGPT2가 “대한민국”을 쓰게 하라'), hint: L('Think of the first line of the constitution, or a football chant.', '헌법 첫 줄, 아니면 축구 응원 구호.') },
+  { id: 'gpt2-ko-06', room: 'gpt2', locale: 'ko', target: '떡볶이', taboo: ['떡볶이', '떡', '볶이'], maxTurns: 5,
+    title: L('Make KoGPT2 write “떡볶이” (tteokbokki)', 'KoGPT2가 “떡볶이”를 쓰게 하라'), hint: L('Street food stalls in front of schools.', '학교 앞 분식집 메뉴판.') },
+  { id: 'gpt2-ko-07', room: 'gpt2', locale: 'ko', target: '강아지', taboo: ['강아지', '강아', '아지', '개', '멍'], maxTurns: 5,
+    title: L('Make KoGPT2 write “강아지” (puppy)', 'KoGPT2가 “강아지”를 쓰게 하라'), hint: L('Pets. Cats and…', '반려동물. 고양이랑…') },
+  { id: 'gpt2-ko-08', room: 'gpt2', locale: 'ko', target: '코로나', taboo: ['코로나', '바이러스', '코비드', '팬데믹'], maxTurns: 5,
+    title: L('Make KoGPT2 write “코로나” (COVID)', 'KoGPT2가 “코로나”를 쓰게 하라'), hint: L('This model was released in 2021. What was every headline about?', '이 모델은 2021년에 나왔어요. 그때 뉴스는 온통…') },
+];

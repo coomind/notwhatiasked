@@ -7,5 +7,14 @@
     "name": "GPT-2 small (OpenAI, 2019)",
     "license": "MIT",
     "credit": "OpenAI GPT-2 (2019), ONNX conversion by Xenova"
+  },
+  "ko": {
+    "model": "coomind/kogpt2-base-v2-onnx",
+    "dtype": "q8",
+    "model_file_name": "model",
+    "sizeMB": 158,
+    "name": "KoGPT2 v2 (SK텔레콤, 2021)",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "SK Telecom KoGPT2 (skt/kogpt2-base-v2), ONNX q8 conversion: coomind/kogpt2-base-v2-onnx"
   }
 }

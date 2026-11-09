@@ -32,12 +32,21 @@ test('en gpt2: 동의 → 모델 내려받기 → 첫 미션 클리어', async (
   expect(errors).toEqual([]);
 });
 
-test('ko gpt2: 한국어 GPT-2 가 없으면 영어 원본 모드로 열림', async ({ page }) => {
+test('ko gpt2: 한국어 GPT-2(KoGPT2) 전시실 → 동의 → 내려받기 → 첫 미션 클리어', async ({ page, errors }) => {
   await page.goto('/?lang=ko#/room/gpt2');
   await page.evaluate(() => localStorage.setItem('nwia:progress:v1', JSON.stringify({ cleared: {}, challenge: {}, freeTour: true, original: false, sound: false })));
   await page.reload();
-  await expect(page.locator('.notice')).toContainText('영어 원본');
-  await expect(page.locator('.mrow').first()).toContainText('GPT-2');
+  await expect(page.locator('.plaque')).toContainText('KoGPT2');
+  await expect(page.locator('.notice')).toHaveCount(0); // 영어 원본으로 열렸다는 안내가 없어야 함
+  const m = missions('ko', 'gpt2')[0];
+  await page.locator('.mrow').first().click();
+  const dl = page.getByRole('button', { name: '내려받고 입장' });
+  if (await dl.count()) await dl.click();
+  await expect(page.getByRole('textbox')).toBeVisible({ timeout: 280_000 });
+  await say(page, m.solution![0]);
+  const r = await waitResult(page);
+  await expect(r).toContainText('클리어');
+  expect(errors).toEqual([]);
 });
 
 test('금지어: 빨간 밑줄 + 보내기 막힘 + 글로도 알림', async ({ page }) => {

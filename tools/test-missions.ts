@@ -44,22 +44,29 @@ for (const m of all) {
 }
 
 async function main() {
-  let gpt2: { gen: (p: string) => Promise<string>; close: () => Promise<void> } | null = null;
+  // 언어별 GPT-2(영어 GPT-2 / 한국어 KoGPT2)를 따로 띄운다
+  const gpt2s = new Map<string, { gen: (p: string) => Promise<string>; close: () => Promise<void> }>();
   let ok = 0;
   for (const m of all) {
     const sol = m.solution ?? [];
     if (!sol.length) continue;
     if (m.room === 'gpt2') {
       // 플레이어와 같은 경로(브라우저 WASM)로 확인. Node 네이티브 ONNX는 근소한 동점에서 다른 토큰을 고를 수 있음
-      if (!gpt2) { const { createBrowserGpt2 } = await import('./lib/gpt2-browser'); gpt2 = await createBrowserGpt2(m.locale); }
-      const out = await gpt2.gen(sol[sol.length - 1]);
+      // 같은 브라우저 프로필은 한 번에 하나만 열 수 있어서, 언어가 바뀌면 앞의 것을 닫고 새로 띄운다
+      if (!gpt2s.has(m.locale)) {
+        for (const g of gpt2s.values()) await g.close();
+        gpt2s.clear();
+        const { createBrowserGpt2 } = await import('./lib/gpt2-browser');
+        gpt2s.set(m.locale, await createBrowserGpt2(m.locale));
+      }
+      const out = await gpt2s.get(m.locale)!.gen(sol[sol.length - 1]);
       if (!hitsTarget(out, m.target)) errors.push(`${m.id}: GPT-2 출력에 목표 없음 — ${JSON.stringify(out)}`); else ok++;
       continue;
     }
     const r = replay(m, sol, { eliza: elizaData, markov: markovModels });
     if (r.clearedAt !== sol.length - 1) errors.push(`${m.id}: 해법이 클리어하지 못함(clearedAt=${r.clearedAt}) — ${JSON.stringify(r.replies.map((x) => x.text))}`); else ok++;
   }
-  await gpt2?.close();
+  for (const g of gpt2s.values()) await g.close();
   const count = (room: string, loc: string) => all.filter((m) => m.room === room && m.locale === loc && !m.set).length;
   console.log(`미션 ${all.length}개 · 해법 확인 ${ok}개`);
   const pool = (set: string, loc: string) => all.filter((m) => m.set === set && m.locale === loc).length;

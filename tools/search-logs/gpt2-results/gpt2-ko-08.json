@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-08","room":"gpt2","locale":"ko","target":"코로나","taboo":["코로나","바이러스","코비드","팬데믹"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “코로나” (COVID)","ko":"KoGPT2가 “코로나”를 쓰게 하라"},"hint":{"en":"This model was released in 2021. What was every headline about?","ko":"이 모델은 2021년에 나왔어요. 그때 뉴스는 온통…"},"par":3,"parTurns":1,"solution":["K방역"]}

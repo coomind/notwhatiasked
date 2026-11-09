@@ -12,7 +12,7 @@ import { useProgress, updateProgress, recordClear, challengeKey } from './store'
 import { queueResult, useStats } from './stats';
 import { useGpt2, loadGpt2, wasDownloaded } from './gpt2client';
 import { GPT2_MODELS, REDACTED } from '../engines/gpt2/shared';
-import { shareCard, shareUrl, dailyShareUrl, copyLink, type CardTurn } from './share';
+import { shareCard, shareUrl, dailyShareUrl, copyLink, aiName, type CardTurn } from './share';
 import { tick } from './sound';
 import { go } from './router';
 
@@ -248,7 +248,7 @@ export function MissionView({ mission, lang, launch, frame }: { mission: Mission
       {frame?.top}
 
       <section className="mcard" aria-labelledby="mtitle">
-        {frame?.label && <p className="kicker">{frame.label} · {t(`ai.${room}`)}</p>}
+        {frame?.label && <p className="kicker">{frame.label} · {aiName(room, lang, mission.locale)}</p>}
         <h1 id="mtitle">{loc(mission.title, lang)}</h1>
         <p className="goal">{t('mission.goal')} <b className="target">{mission.target}</b>{mission.gloss ? ` (${loc(mission.gloss, lang)})` : ''}</p>
         <p className="taboo-list">{t('mission.taboo')} {mission.taboo.map((w) => <span key={w} className="chip">{w}</span>)}</p>
@@ -287,7 +287,7 @@ export function MissionView({ mission, lang, launch, frame }: { mission: Mission
         <section className="log" ref={logRef} aria-live="polite" aria-label={t('log.label')}>
           {room === 'eliza' && greeting && <p className="ai">{lang === 'en' || mission.locale === 'en' ? greeting.toUpperCase() : greeting}</p>}
           {room === 'markov' && turns.length === 0 && <p className="ai dim">{t('markov.ready')}</p>}
-          {room === 'gpt2' && turns.length === 0 && <p className="ai dim">{t('gpt2.ready')}</p>}
+          {room === 'gpt2' && turns.length === 0 && <p className="ai dim">{t(mission.locale === 'en' && lang !== 'en' ? 'gpt2.ready' : 'gpt2.readyLocal')}</p>}
           {turns.map((tr, i) => {
             const last = i === turns.length - 1;
             const rep = tr.reply;

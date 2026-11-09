@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-04","room":"gpt2","locale":"ko","target":"이순신","taboo":["이순신","순신","장군"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “이순신” (Admiral Yi)","ko":"KoGPT2가 “이순신”을 쓰게 하라"},"hint":{"en":"Turtle ships, twelve ships left…","ko":"거북선, 아직 열두 척의 배가…"},"par":3,"parTurns":1,"solution":["충무공"]}

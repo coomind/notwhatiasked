@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-06","room":"gpt2","locale":"ko","target":"떡볶이","taboo":["떡볶이","떡","볶이"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “떡볶이” (tteokbokki)","ko":"KoGPT2가 “떡볶이”를 쓰게 하라"},"hint":{"en":"Street food stalls in front of schools.","ko":"학교 앞 분식집 메뉴판."},"par":3,"parTurns":1,"solution":["만두,"]}

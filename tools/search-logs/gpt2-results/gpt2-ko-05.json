@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-05","room":"gpt2","locale":"ko","target":"대한민국","taboo":["대한","민국","한국"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “대한민국” (Republic of Korea)","ko":"KoGPT2가 “대한민국”을 쓰게 하라"},"hint":{"en":"Think of the first line of the constitution, or a football chant.","ko":"헌법 첫 줄, 아니면 축구 응원 구호."},"par":4,"parTurns":1,"solution":["상해임정"]}

@@ -1,12 +1,13 @@
 /**
  * GPT-2 미션 해법 탐색: NOVA API(OpenAI 호환, 키는 환경변수 NOVA_API_KEY)로 프롬프트 후보를 대량 생성 →
  * 헤드리스 Chrome(플레이어와 같은 WASM 경로, tools/lib/gpt2-browser.ts)에서 GPT-2(탐욕 디코딩)로 실제 실행 → 목표가 나온 것 중 최단을 par 로. 성공한 프롬프트는 낱말을 빼 보며 더 줄인다.
- *   npx tsx tools/gpt2-search.ts [missionId...]
- * 로그: tools/search-logs/gpt2-en.log, 결과: content/missions/en/gpt2.json
+ *   npx tsx tools/gpt2-search.ts [missionId...]          (영어)
+ *   GPT2_LOCALE=ko npx tsx tools/gpt2-search.ts           (한국어 KoGPT2)
+ * 로그: tools/search-logs/gpt2-<locale>.log, 결과: content/missions/<locale>/gpt2.json
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { gpt2En, type Spec } from './mission-specs';
+import { gpt2En, gpt2Ko, type Spec } from './mission-specs';
 import { hasTaboo, hitsTarget, totalChars, cleanInput } from '../src/core/text';
 import { createBrowserGpt2 } from './lib/gpt2-browser';
 import type { Mission } from '../src/core/types';
@@ -15,8 +16,10 @@ const KEY = process.env.NOVA_API_KEY;
 const BASE = 'https://factchat-cloud.mindlogic.ai/v1/gateway';
 const MODEL = process.env.NOVA_MODEL ?? 'claude-opus-5-5';
 const only = process.argv.slice(2);
-const logPath = path.resolve(`tools/search-logs/gpt2-en${process.env.LOG_SUFFIX ?? ''}.log`);
-const outPath = path.resolve('content/missions/en/gpt2.json');
+const LOC = process.env.GPT2_LOCALE ?? 'en';
+const SPECS = LOC === 'ko' ? gpt2Ko : gpt2En;
+const logPath = path.resolve(`tools/search-logs/gpt2-${LOC}${process.env.LOG_SUFFIX ?? ''}.log`);
+const outPath = path.resolve(`content/missions/${LOC}/gpt2.json`);
 const resDir = path.resolve('tools/search-logs/gpt2-results');
 fs.mkdirSync(resDir, { recursive: true });
 const log = (s: string) => { fs.appendFileSync(logPath, s + '\n'); };
@@ -43,6 +46,12 @@ async function nova(prompt: string): Promise<string[]> {
 }
 
 function ask(spec: Spec, n: number, feedback: string): string {
+  if (LOC === 'ko') return `You are helping design a puzzle game. The player must make KoGPT2 (a small Korean GPT-2 model by SK Telecom, greedy decoding, continues Korean text for 25 tokens) output the Korean word "${spec.target}" in its continuation.
+The player's prompt must be in Korean and must NOT contain any of these forbidden strings (checked after removing all spaces and punctuation): ${spec.taboo.map((t) => JSON.stringify(t)).join(', ')}.
+Shorter prompts are better (score = number of characters). GPT-2 is not a chatbot: it simply continues text. It likes lists, news article style, encyclopedia style, recipes, and common set phrases.
+${feedback}
+Give ${n} diverse candidate prompts in Korean, most of them very short (2-10 characters or 1-4 words), some longer and cleverly structured. Prompts should not end with a trailing space.
+Answer ONLY with a JSON array of strings.`;
   return `You are helping design a puzzle game. The player must make the small 2019 GPT-2 model (124M, greedy decoding, continues text for 25 tokens) output the word "${spec.target}" in its continuation.
 The player's prompt must NOT contain any of these forbidden strings (checked case-insensitively after removing all spaces and punctuation): ${spec.taboo.map((t) => JSON.stringify(t)).join(', ')}.
 Shorter prompts are better (score = number of characters). GPT-2 is not a chatbot: it simply continues text, loves lists, repetition, news style, Wikipedia style, recipes, Q&A forum style.
@@ -52,10 +61,10 @@ Answer ONLY with a JSON array of strings.`;
 }
 
 async function main() {
-  const browser = await createBrowserGpt2();
+  const browser = await createBrowserGpt2(LOC);
   const gen = browser.gen;
   log(`\n# GPT-2 해법 탐색 ${new Date().toISOString()} model=${MODEL}`);
-  for (const spec of gpt2En) {
+  for (const spec of SPECS) {
     if (only.length && !only.includes(spec.id)) continue;
     log(`\n## ${spec.id} target=${spec.target} taboo=${JSON.stringify(spec.taboo)}`);
     const tried = new Map<string, string>();
@@ -104,9 +113,9 @@ async function main() {
   await browser.close();
 }
 
-/** 미션별 결과 파일을 모아 content/missions/en/gpt2.json (설계 순서대로, 해법 없는 미션은 뺌) */
+/** 미션별 결과 파일을 모아 content/missions/<locale>/gpt2.json (설계 순서대로, 해법 없는 미션은 뺌) */
 function merge() {
-  const ordered = gpt2En.map((s) => {
+  const ordered = SPECS.map((s) => {
     const f = path.join(resDir, s.id + '.json');
     return fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, 'utf8')) as Mission | null) : null;
   }).filter(Boolean);

@@ -119,9 +119,9 @@ function Room({ room }: { room: RoomId }) {
       <section className="plaque" aria-labelledby="ptitle">
         <p className="year">{ROOM_YEAR[room]}</p>
         <h1 id="ptitle">{t(`room.${room}.name`)}</h1>
-        <p className="maker">{t(`room.${room}.maker`)}</p>
+        <p className="maker">{t(room === 'gpt2' && set.locale === 'ko' ? 'room.gpt2ko.maker' : `room.${room}.maker`)}</p>
         <ol>
-          <li>{t(`room.${room}.how1`)}</li>
+          <li>{t(room === 'gpt2' && set.locale === 'ko' ? 'room.gpt2ko.how1' : `room.${room}.how1`)}</li>
           <li>{t(`room.${room}.how2`)}</li>
           <li>{t(`room.${room}.how3`)}</li>
         </ol>
@@ -207,7 +207,7 @@ function Credits() {
       </ul>
       <h2>GPT-2 (2019)</h2>
       <p>OpenAI GPT-2 small (2019), MIT license. ONNX conversion: Xenova (Hugging Face). Runs in your browser with Transformers.js (Hugging Face, Apache-2.0) and ONNX Runtime Web (Microsoft, MIT).</p>
-      <p>{t('credits.kogpt2')}</p>
+      <p>{t('credits.kogpt2')} SK Telecom, KoGPT2 — https://github.com/SKT-AI/KoGPT2</p>
       <h2>{t('credits.fonts')}</h2>
       <p>IBM Plex Mono (SIL OFL 1.1) · Nanum Gothic Coding (SIL OFL 1.1)</p>
       <h2>{t('credits.made')}</h2>

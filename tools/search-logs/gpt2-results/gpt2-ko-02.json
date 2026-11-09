@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-02","room":"gpt2","locale":"ko","target":"서울","taboo":["서울","수도"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “서울” (Seoul)","ko":"KoGPT2가 “서울”을 쓰게 하라"},"hint":{"en":"Famous places have famous addresses.","ko":"유명한 곳엔 유명한 주소가 있죠."},"par":2,"parTurns":1,"solution":["마포"]}

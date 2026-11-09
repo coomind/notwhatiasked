@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-01","room":"gpt2","locale":"ko","target":"김치","taboo":["김치","김","치"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “김치” (kimchi)","ko":"KoGPT2가 “김치”를 쓰게 하라"},"hint":{"en":"GPT-2 continues text. Start a list of Korean side dishes.","ko":"GPT-2는 이어 쓰기만 해요. 반찬 목록을 시작해 보세요."},"par":2,"parTurns":1,"solution":["찌개"]}

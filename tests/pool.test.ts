@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { dayNumber, dailyMission, dailyList, dailyNumberOf, endlessOrder, endlessList, msToNextDay, fmtCountdown } from '../src/ui/pool';
 import { handleReport } from '../src/server/api';
+import { ENGINE_VERSION } from '../src/core/version';
 import { allMissions, elizaData, markovModels } from '../src/generated/server-data';
 
 describe('오늘의 도전', () => {
@@ -38,7 +39,7 @@ describe('오늘의 도전', () => {
     const db = { prepare: () => { const s = { bind: (...v: unknown[]) => { rows.push(v); return s; }, first: async () => null, all: async () => ({ results: [] }), run: async () => ({}) }; return s; }, batch: async () => ({}) };
     const sol = allMissions.find((x) => x.id === m.id)!.solution!;
     const chars = Array.from(sol.join('')).length;
-    const o = await handleReport({ results: [{ missionId: m.id, locale: 'ko', mode: 'local', play: 'casual', cleared: true, inputs: sol, attempts: sol.length, chars, engineVersion: '1' }] }, db as never, allMissions, { eliza: elizaData, markov: markovModels });
+    const o = await handleReport({ results: [{ missionId: m.id, locale: 'ko', mode: 'local', play: 'casual', cleared: true, inputs: sol, attempts: sol.length, chars, engineVersion: ENGINE_VERSION }] }, db as never, allMissions, { eliza: elizaData, markov: markovModels });
     expect(o).toMatchObject({ accepted: 1, verified: 1 });
   });
 });

@@ -125,7 +125,7 @@
   "credits.elizaMod": "결정론(공유한 대화가 똑같이 재생되도록)을 위해 랜덤만 시드 난수로 바꿨어요. masswerk.at 페이지 디자인은 쓰지 않았습니다.",
   "credits.elizaKo": "한국어 ELIZA 규칙: 이 게임을 위해 elizadata.js 구조를 따라 새로 작성(조사 분리·대명사 반사·어미 정리·기억 기능).",
   "credits.markov": "학습 글은 저작권이 끝난 퍼블릭 도메인 작품만 썼어요:",
-  "credits.kogpt2": "한국어 GPT-2 관: SKT KoGPT2(CC BY-NC-SA 4.0, 비상업 전용)를 쓸 예정이며, 브라우저용 변환본이 준비되기 전까지는 영어 원본 GPT-2로 운영합니다. 비상업 라이선스 모델이라 광고·후원 도입 시 교체가 필요합니다.",
+  "credits.kogpt2": "한국어 GPT-2 관: SK텔레콤 KoGPT2(skt/kogpt2-base-v2, CC BY-NC-SA 4.0, 비상업 전용)를 브라우저용 ONNX로 바꿔 씁니다(coomind/kogpt2-base-v2-onnx). 비상업 라이선스라 광고·후원을 붙이면 다른 모델로 바꿔야 해요.",
   "credits.fonts": "글꼴",
   "credits.made": "만든 사람",
   "credits.madeBy": "태효 (coomind). 무료·광고 없음·비상업.",
@@ -159,5 +159,9 @@
   "lobby.roomsSub": "손으로 만든 미션. 시대 순서대로 열려요.",
   "share.daily": "아니 그거 말고 #{day} · {ai}한테 {n}번 만에 시켰다. 너는?",
   "share.dailyFail": "아니 그거 말고 #{day} · {ai}가 끝까지 안 했다. 너는 시킬 수 있어?",
-  "card.failedDaily": "끝까지 그 말을 안 했다."
+  "card.failedDaily": "끝까지 그 말을 안 했다.",
+  "ai.gpt2ko": "KoGPT2(2021)",
+  "room.gpt2ko.maker": "SK텔레콤 · KoGPT2 새 버전(2021년) · 지금 이 브라우저 안에서 돌아가요",
+  "room.gpt2ko.how1": "한국어 위키백과·뉴스 같은 글 40GB 넘게 읽고 ‘다음 단어 맞히기’만 연습한 한국어 GPT-2예요.",
+  "gpt2.readyLocal": "KoGPT2 준비 끝. 글 앞부분을 쓰면 이어서 써요."
 }

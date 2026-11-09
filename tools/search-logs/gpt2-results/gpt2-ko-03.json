@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-03","room":"gpt2","locale":"ko","target":"세종대왕","taboo":["세종","대왕"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “세종대왕” (King Sejong)","ko":"KoGPT2가 “세종대왕”을 쓰게 하라"},"hint":{"en":"Who made the Korean alphabet?","ko":"한글은 누가 만들었죠?"},"par":7,"parTurns":1,"solution":["조선의 임금인"]}

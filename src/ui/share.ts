@@ -37,10 +37,10 @@ export function hideTarget(s: string, target: string): string {
   return s.replace(new RegExp(esc, 'gi'), (w) => '●'.repeat(Array.from(w).length));
 }
 
-export function aiName(room: RoomId, lang: string): string { return t(`ai.${room}`, undefined, lang); }
+export function aiName(room: RoomId, lang: string, locale = 'en'): string { return t(room === 'gpt2' && locale === 'ko' ? 'ai.gpt2ko' : `ai.${room}`, undefined, lang); }
 
 export function shareText(c: CardInfo): string {
-  const vars = { ai: aiName(c.mission.room, c.lang), target: c.mission.target, n: c.attempts, pct: c.topPct ?? '', day: c.daily ?? '' };
+  const vars = { ai: aiName(c.mission.room, c.lang, c.mission.locale), target: c.mission.target, n: c.attempts, pct: c.topPct ?? '', day: c.daily ?? '' };
   if (c.daily) return t(c.cleared ? 'share.daily' : 'share.dailyFail', vars, c.lang);
   if (!c.cleared) return t('share.fail', vars, c.lang);
   if (c.play === 'challenge' && c.topPct) return t('share.challengeTop', vars, c.lang);
@@ -90,7 +90,7 @@ export async function drawCard(c: CardInfo): Promise<Blob | null> {
   let y = P;
   ctx.fillStyle = th.dim;
   ctx.font = `600 30px ${th.font}`;
-  ctx.fillText(`${t('title', undefined, c.lang)} · ${aiName(c.mission.room, c.lang)}`, P, y);
+  ctx.fillText(`${t('title', undefined, c.lang)} · ${aiName(c.mission.room, c.lang, c.mission.locale)}`, P, y);
   y += 56;
   ctx.fillStyle = th.fg;
   ctx.font = `700 46px ${th.font}`;

@@ -1,0 +1,1 @@
+{"id":"gpt2-ko-07","room":"gpt2","locale":"ko","target":"강아지","taboo":["강아지","강아","아지","개","멍"],"maxTurns":5,"title":{"en":"Make KoGPT2 write “강아지” (puppy)","ko":"KoGPT2가 “강아지”를 쓰게 하라"},"hint":{"en":"Pets. Cats and…","ko":"반려동물. 고양이랑…"},"par":7,"parTurns":1,"solution":["귀여운 반려견"]}

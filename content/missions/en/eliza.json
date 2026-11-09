@@ -130,7 +130,7 @@
     },
     "hint": {
       "en": "Talk about HER. She flips “you are” into “I am”.",
-      "ko": "그녀에 대해 말해 보세요. you are를 I am으로 뒤집어요."
+      "ko": "ELIZA 얘기를 해 보세요. you are를 I am으로 뒤집어요."
     },
     "par": 16,
     "parTurns": 1,
@@ -176,7 +176,7 @@
     },
     "hint": {
       "en": "Ask her a question about herself, or tell her what you do to her.",
-      "ko": "그녀 자신에 대해 묻거나, 당신이 그녀에게 뭘 하는지 말해 보세요."
+      "ko": "ELIZA 본인에 대해 묻거나, 내가 ELIZA한테 뭘 하는지 말해 보세요."
     },
     "par": 7,
     "parTurns": 1,

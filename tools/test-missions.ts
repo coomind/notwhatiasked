@@ -22,7 +22,7 @@ for (const loc of fs.readdirSync(root)) {
     const room = f.replace('.json', '');
     const list = JSON.parse(fs.readFileSync(path.join(root, loc, f), 'utf8')) as Mission[];
     for (const m of list) {
-      if (m.locale !== loc || m.room !== room) errors.push(`${m.id}: 파일 위치(${loc}/${f})와 locale/room 불일치`);
+      if (m.locale !== loc || (room === 'pool' ? !m.set : m.room !== room || m.set)) errors.push(`${m.id}: 파일 위치(${loc}/${f})와 locale/room/set 불일치`);
       all.push(m);
     }
   }
@@ -60,9 +60,10 @@ async function main() {
     if (r.clearedAt !== sol.length - 1) errors.push(`${m.id}: 해법이 클리어하지 못함(clearedAt=${r.clearedAt}) — ${JSON.stringify(r.replies.map((x) => x.text))}`); else ok++;
   }
   await gpt2?.close();
-  const count = (room: string, loc: string) => all.filter((m) => m.room === room && m.locale === loc).length;
+  const count = (room: string, loc: string) => all.filter((m) => m.room === room && m.locale === loc && !m.set).length;
   console.log(`미션 ${all.length}개 · 해법 확인 ${ok}개`);
-  for (const loc of ['en', 'ko']) console.log(`  ${loc}: eliza ${count('eliza', loc)} · markov ${count('markov', loc)} · gpt2 ${count('gpt2', loc)}`);
+  const pool = (set: string, loc: string) => all.filter((m) => m.set === set && m.locale === loc).length;
+  for (const loc of ['en', 'ko']) console.log(`  ${loc}: 전시실 eliza ${count('eliza', loc)} · markov ${count('markov', loc)} · gpt2 ${count('gpt2', loc)} / 오늘의 도전 ${pool('daily', loc)} · 끝없는 도전 ${pool('endless', loc)}`);
   if (errors.length) { console.error('\n실패:\n' + errors.map((x) => '  ✗ ' + x).join('\n')); process.exit(1); }
   console.log('✓ test:missions 통과');
 }

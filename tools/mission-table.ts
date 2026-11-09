@@ -14,5 +14,16 @@ for (const loc of fs.readdirSync('content/missions')) {
     out.push('');
   }
 }
+// 자동 생성 풀은 개수만(전체 목록·해법은 content/missions/<locale>/pool.json)
+for (const loc of fs.readdirSync('content/missions')) {
+  const f = path.join('content/missions', loc, 'pool.json');
+  if (!fs.existsSync(f)) continue;
+  const ms = JSON.parse(fs.readFileSync(f, 'utf8')) as Mission[];
+  const c = (set: string, room: string) => ms.filter((m) => m.set === set && m.room === room).length;
+  out.push(`## ${loc} · 자동 생성 풀 (${ms.length}개, tools/gen-pool.ts)`, '',
+    `- 오늘의 도전: ELIZA ${c('daily', 'eliza')} · 마르코프 ${c('daily', 'markov')}`,
+    `- 끝없는 도전: ELIZA ${c('endless', 'eliza')} · 마르코프 ${c('endless', 'markov')}`,
+    `- 오늘의 도전 첫 7일: ${ms.filter((m) => m.set === 'daily').slice(0, 7).map((m) => m.target).join(', ')}`, '');
+}
 fs.writeFileSync('docs/미션표.md', out.join('\n'));
 console.log('docs/미션표.md');

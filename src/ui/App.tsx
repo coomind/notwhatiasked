@@ -8,11 +8,16 @@ import { useProgress, updateProgress, type Progress } from './store';
 import { loadStats, installReporter, useStats } from './stats';
 import { useRoute, go, setLaunch, takeLaunch } from './router';
 import { MissionView } from './Mission';
+import { DailyView, Archive, Endless, PlayCards } from './Daily';
 import { GPT2_MODELS } from '../engines/gpt2/shared';
 
 // 공유 링크(?m=…&r=… / ?m=…&c=1)로 들어오면 미션 화면으로 옮기고 주소창은 깨끗하게
 function consumeQuery() {
   const q = new URLSearchParams(location.search);
+  const keep0 = q.get('lang') ? `?lang=${q.get('lang')}` : '';
+  // ?d=12 → 오늘의 도전 #12, ?e=1 → 끝없는 도전
+  if (q.get('d')) { history.replaceState(null, '', `${location.pathname}${keep0}#/d/${encodeURIComponent(q.get('d')!)}`); return; }
+  if (q.get('e')) { history.replaceState(null, '', `${location.pathname}${keep0}#/endless`); return; }
   const id = q.get('m');
   if (!id || !missionById(id)) return;
   const replay = q.get('r') ? decodeInputs(q.get('r')!) ?? undefined : undefined;
@@ -80,6 +85,9 @@ function Lobby() {
         <li>{t('rules.2')}</li>
         <li>{t('rules.3')}</li>
       </ol>
+      <PlayCards />
+      <h2 className="section">{t('lobby.rooms')}</h2>
+      <p className="meta">{t('lobby.roomsSub')}</p>
       <ul className="rooms">
         {row('eliza')}
         {row('markov')}
@@ -223,8 +231,12 @@ export function App() {
   if (route.name === 'room' && (ROOMS as string[]).includes(route.room)) return <Room room={route.room as RoomId} />;
   if (route.name === 'mission') {
     const m = missionById(route.id);
-    if (m) return <MissionView key={`${m.id}|${lang}`} mission={m} lang={lang} launch={takeLaunch(m.id)} />;
+    // 풀 미션(오늘의 도전·끝없는 도전)을 공유 링크로 열면 뒤로 가기는 로비로
+    if (m) return <MissionView key={`${m.id}|${lang}`} mission={m} lang={lang} launch={takeLaunch(m.id)} frame={m.set ? { back: { label: t('to.lobby'), go: () => go('') } } : undefined} />;
   }
+  if (route.name === 'daily') return <DailyView key={`${route.n ?? 'today'}|${lang}`} n={route.n} />;
+  if (route.name === 'archive') return <Archive />;
+  if (route.name === 'endless') return <Endless key={lang} />;
   if (route.name === 'ending') return <Ending />;
   if (route.name === 'credits') return <Credits />;
   return <Lobby />;

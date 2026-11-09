@@ -22,6 +22,8 @@ export interface Mission {
   title: Localized;
   /** 목표 단어 번역(원본 모드에서 뜻 보여주기용, 선택) */
   gloss?: Localized;
+  /** 자동 생성 풀(content/missions/<locale>/pool.json): 오늘의 도전 / 끝없는 도전. 없으면 전시실 미션 */
+  set?: 'daily' | 'endless';
 }
 
 export const CHALLENGE_MAX = 5;

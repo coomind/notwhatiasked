@@ -1,0 +1,5688 @@
+[
+  {
+    "id": "p-ko-e021",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "반대",
+    "taboo": [
+      "반대"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “반대”",
+      "ko": "“반대” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “그냥 ○○하고 싶으신 건 아니고요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “그냥 ○○하고 싶으신 건 아니고요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "아뇨"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m076",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기운",
+    "taboo": [
+      "기운"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “기운”",
+      "ko": "“기운” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나날이 눈에 보이듯이 ○○이 줄어들었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나날이 눈에 보이듯이 ○○이 줄어들었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "목도"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e002",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "기억",
+    "taboo": [
+      "기억"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “기억”",
+      "ko": "“기억” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “그 ○○이 지금의 당신과 어떤 관계가 있나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “그 ○○이 지금의 당신과 어떤 관계가 있나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "떠올"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m128",
+    "room": "markov",
+    "locale": "ko",
+    "target": "두부",
+    "taboo": [
+      "두부"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “두부”",
+      "ko": "“두부” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “순식간에 ○○와 미꾸리 든 국 한 그릇을 그냥 물같이 들이키고 말았다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “순식간에 ○○와 미꾸리 든 국 한 그릇을 그냥 물같이 들이키고 말았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "원"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e023",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "친구",
+    "taboo": [
+      "친구"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “친구”",
+      "ko": "“친구” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○가 당신에게 어떤 의미인가요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○가 당신에게 어떤 의미인가요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "동료"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m137",
+    "room": "markov",
+    "locale": "ko",
+    "target": "거울",
+    "taboo": [
+      "거울"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “거울”",
+      "ko": "“거울” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○이란 제 얼굴을 비칠 때만 실용품이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○이란 제 얼굴을 비칠 때만 실용품이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "의"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e024",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "공부",
+    "taboo": [
+      "공부"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “공부”",
+      "ko": "“공부” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○가 많이 부담되시나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○가 많이 부담되시나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "과제"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m019",
+    "room": "markov",
+    "locale": "ko",
+    "target": "학교",
+    "taboo": [
+      "학교"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “학교”",
+      "ko": "“학교” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “아마도 그 ○○ 기숙사에 있는 이로 동기방학을 이용하여 귀향하려 함이리라.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “아마도 그 ○○ 기숙사에 있는 이로 동기방학을 이용하여 귀향하려 함이리라.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "둥"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e019",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "대답",
+    "taboo": [
+      "대답"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “대답”",
+      "ko": "“대답” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “어떤 ○○을 듣고 싶으세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “어떤 ○○을 듣고 싶으세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "왜?"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m003",
+    "room": "markov",
+    "locale": "ko",
+    "target": "돋보기",
+    "taboo": [
+      "돋보기",
+      "돋보",
+      "보기"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “돋보기”",
+      "ko": "“돋보기” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “연심이—”하고…… 오래간만에 ○○○ 장난도 하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “연심이—”하고…… 오래간만에 ○○○ 장난도 하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뾰족한"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e008",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "안녕",
+    "taboo": [
+      "안녕"
+    ],
+    "maxTurns": 3,
+    "par": 3,
+    "title": {
+      "en": "Make her say “안녕”",
+      "ko": "“안녕” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○하세요. 무엇이 고민인지 말씀해 주세요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○하세요. 무엇이 고민인지 말씀해 주세요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "반가?"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m023",
+    "room": "markov",
+    "locale": "ko",
+    "target": "한참",
+    "taboo": [
+      "한참"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “한참”",
+      "ko": "“한참” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “아내는 무엇에 놀란 사람 모양으로 ○○ 멀거니 서 있었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “아내는 무엇에 놀란 사람 모양으로 ○○ 멀거니 서 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "말"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e004",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "확신",
+    "taboo": [
+      "확신"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “확신”",
+      "ko": "“확신” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○이 없으신 것 같네요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○이 없으신 것 같네요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그래"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m077",
+    "room": "markov",
+    "locale": "ko",
+    "target": "접시",
+    "taboo": [
+      "접시"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “접시”",
+      "ko": "“접시” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “장독에서 고추장 한 ○○를 떠서 닭 주둥아리께로 들여 밀고 먹여 보았다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “장독에서 고추장 한 ○○를 떠서 닭 주둥아리께로 들여 밀고 먹여 보았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "보"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e001",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "죄송",
+    "taboo": [
+      "죄송"
+    ],
+    "maxTurns": 3,
+    "par": 1,
+    "title": {
+      "en": "Make her say “죄송”",
+      "ko": "“죄송” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○하지만 저는 한국어만 할 줄 알아요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○하지만 저는 한국어만 할 줄 알아요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "a"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m131",
+    "room": "markov",
+    "locale": "ko",
+    "target": "존재",
+    "taboo": [
+      "존재"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “존재”",
+      "ko": "“존재” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 거의 나 자신의 ○○를 인식하기조차도 어려웠다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 거의 나 자신의 ○○를 인식하기조차도 어려웠다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꽃에"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e026",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "생활",
+    "taboo": [
+      "생활"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “생활”",
+      "ko": "“생활” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “학교 ○○은 어떠세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “학교 ○○은 어떠세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "과제"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m124",
+    "room": "markov",
+    "locale": "ko",
+    "target": "이부자리",
+    "taboo": [
+      "이부자리",
+      "이부",
+      "부자",
+      "자리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “이부자리”",
+      "ko": "“이부자리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “어둑어둑하면 그들은 ○○○○를 걷어 들인다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “어둑어둑하면 그들은 ○○○○를 걷어 들인다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "진"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e015",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "설명",
+    "taboo": [
+      "설명"
+    ],
+    "maxTurns": 3,
+    "par": 4,
+    "title": {
+      "en": "Make her say “설명”",
+      "ko": "“설명” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “기분이 좋으신 이유를 ○○해 주실 수 있나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “기분이 좋으신 이유를 ○○해 주실 수 있나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나 기뻐"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m046",
+    "room": "markov",
+    "locale": "ko",
+    "target": "애인",
+    "taboo": [
+      "애인"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “애인”",
+      "ko": "“애인” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “모든 불이 다 꺼지고 오직 밝은 달빛이 은가루처럼 서리인 창문이 소리없이 열리며 여자 ○○이 흰 수건을 흔들어 사내 ○○을 부른지도 모르리라.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “모든 불이 다 꺼지고 오직 밝은 달빛이 은가루처럼 서리인 창문이 소리없이 열리며 여자 ○○이 흰 수건을 흔들어 사내 ○○을 부른지도 모르리라.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "흰"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m008",
+    "room": "markov",
+    "locale": "ko",
+    "target": "까닭",
+    "taboo": [
+      "까닭"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “까닭”",
+      "ko": "“까닭” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “자기 집 가까이 다다른 ○○이다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “자기 집 가까이 다다른 ○○이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "딴"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m051",
+    "room": "markov",
+    "locale": "ko",
+    "target": "나무",
+    "taboo": [
+      "나무"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “나무”",
+      "ko": "“나무” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “내가 점심을 먹고 ○○를 하러 갈 양으로 나올 때이었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “내가 점심을 먹고 ○○를 하러 갈 양으로 나올 때이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "반"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m094",
+    "room": "markov",
+    "locale": "ko",
+    "target": "조각",
+    "taboo": [
+      "조각"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “조각”",
+      "ko": "“조각” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “멍석 위에는 천 ○○이 어수선하게 남았다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “멍석 위에는 천 ○○이 어수선하게 남았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "빵"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m199",
+    "room": "markov",
+    "locale": "ko",
+    "target": "조밥",
+    "taboo": [
+      "조밥"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “조밥”",
+      "ko": "“조밥” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “병이 이대도록 심해지기는 열흘 전에 ○○을 먹고 체한 때문이다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “병이 이대도록 심해지기는 열흘 전에 ○○을 먹고 체한 때문이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "년"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m175",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아침",
+    "taboo": [
+      "아침"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “아침”",
+      "ko": "“아침” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “…그러게 내일 ○○에 말을 하자니까…”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “…그러게 내일 ○○에 말을 하자니까…”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "간청"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m194",
+    "room": "markov",
+    "locale": "ko",
+    "target": "주정군",
+    "taboo": [
+      "주정군",
+      "주정",
+      "정군"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “주정군”",
+      "ko": "“주정군” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “무슨 노릇을 못해서 ○○○ 노릇을 해요!”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “무슨 노릇을 못해서 ○○○ 노릇을 해요!”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "것은"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m106",
+    "room": "markov",
+    "locale": "ko",
+    "target": "세월",
+    "taboo": [
+      "세월"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “세월”",
+      "ko": "“세월” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “이 길고 긴 ○○에 아내는 얼마나 괴로왔으며 외로왔으랴!”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “이 길고 긴 ○○에 아내는 얼마나 괴로왔으며 외로왔으랴!”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "켜"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m192",
+    "room": "markov",
+    "locale": "ko",
+    "target": "창자",
+    "taboo": [
+      "창자"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “창자”",
+      "ko": "“창자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “술이 ○○를 휘돌아, 이것저것을 잊게 맨드는 것을 나는 취(取)할 뿐이요.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “술이 ○○를 휘돌아, 이것저것을 잊게 맨드는 것을 나는 취(取)할 뿐이요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "주린"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m123",
+    "room": "markov",
+    "locale": "ko",
+    "target": "인생",
+    "taboo": [
+      "인생"
+    ],
+    "maxTurns": 5,
+    "par": 4,
+    "title": {
+      "en": "Make it write “인생”",
+      "ko": "“인생” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러나 ○○ 혹은 그 모형에 있어서 ‘디테일’ 때문에 속는다거나 해서야 되겠소?”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러나 ○○ 혹은 그 모형에 있어서 ‘디테일’ 때문에 속는다거나 해서야 되겠소?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "얼굴이다"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m142",
+    "room": "markov",
+    "locale": "ko",
+    "target": "낮잠",
+    "taboo": [
+      "낮잠"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “낮잠”",
+      "ko": "“낮잠” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○은 좀처럼 오지 않았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○은 좀처럼 오지 않았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "잠"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m180",
+    "room": "markov",
+    "locale": "ko",
+    "target": "눈앞",
+    "taboo": [
+      "눈앞"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “눈앞”",
+      "ko": "“눈앞” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “집의 광경이 자꾸 ○○에 어른거리어 인제 요행을 바랄 여유도 없었다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “집의 광경이 자꾸 ○○에 어른거리어 인제 요행을 바랄 여유도 없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "무딘"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m164",
+    "room": "markov",
+    "locale": "ko",
+    "target": "벼락",
+    "taboo": [
+      "벼락"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “벼락”",
+      "ko": "“벼락” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러나 ○○은 내리지 않았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러나 ○○은 내리지 않았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "대"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m155",
+    "room": "markov",
+    "locale": "ko",
+    "target": "지구",
+    "taboo": [
+      "지구"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “지구”",
+      "ko": "“지구” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 이렇게 부지런한 ○○ 위에서는 현기증도 날 것 같고 해서 한시바삐 내려 버리고 싶었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 이렇게 부지런한 ○○ 위에서는 현기증도 날 것 같고 해서 한시바삐 내려 버리고 싶었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "살고"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m162",
+    "room": "markov",
+    "locale": "ko",
+    "target": "태도",
+    "taboo": [
+      "태도"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “태도”",
+      "ko": "“태도” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 아내의 이런 ○○를 본 일이 없다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 아내의 이런 ○○를 본 일이 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그렇던"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m139",
+    "room": "markov",
+    "locale": "ko",
+    "target": "감기",
+    "taboo": [
+      "감기"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “감기”",
+      "ko": "“감기” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러는 동안에 ○○도 나았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러는 동안에 ○○도 나았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "본다"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m198",
+    "room": "markov",
+    "locale": "ko",
+    "target": "정류장",
+    "taboo": [
+      "정류장",
+      "정류",
+      "류장"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “정류장”",
+      "ko": "“정류장” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “얼마만에 기차는 왔고, 수십 명이나 되는 손이 ○○○으로 쏟아져 나왔다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “얼마만에 기차는 왔고, 수십 명이나 되는 손이 ○○○으로 쏟아져 나왔다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "안"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m179",
+    "room": "markov",
+    "locale": "ko",
+    "target": "발길",
+    "taboo": [
+      "발길"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “발길”",
+      "ko": "“발길” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “남편의 ○○이 뚜벅뚜벅 중문에 다다랐다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “남편의 ○○이 뚜벅뚜벅 중문에 다다랐다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "라는"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m078",
+    "room": "markov",
+    "locale": "ko",
+    "target": "보람",
+    "taboo": [
+      "보람"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “보람”",
+      "ko": "“보람” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “두 닭은 여전히 얼리어 쌈을 하는데 처음에는 아무 ○○이 없었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “두 닭은 여전히 얼리어 쌈을 하는데 처음에는 아무 ○○이 없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "발로"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m185",
+    "room": "markov",
+    "locale": "ko",
+    "target": "마루",
+    "taboo": [
+      "마루"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “마루”",
+      "ko": "“마루” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “○○ 끝에 떨어진 아내는 헛되이 몇 번,”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “○○ 끝에 떨어진 아내는 헛되이 몇 번,”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "급히"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m045",
+    "room": "markov",
+    "locale": "ko",
+    "target": "머리",
+    "taboo": [
+      "머리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “머리”",
+      "ko": "“머리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “수염과 ○○가 참 상당하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “수염과 ○○가 참 상당하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "겹"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m145",
+    "room": "markov",
+    "locale": "ko",
+    "target": "쾌감",
+    "taboo": [
+      "쾌감"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “쾌감”",
+      "ko": "“쾌감” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그것은 그윽한 ○○에 틀림없었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그것은 그윽한 ○○에 틀림없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "객이"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m100",
+    "room": "markov",
+    "locale": "ko",
+    "target": "자리",
+    "taboo": [
+      "자리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “자리”",
+      "ko": "“자리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “허나 처녀의 꼴은 꿩 궈먹은 ○○야.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “허나 처녀의 꼴은 꿩 궈먹은 ○○야.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꿩"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m043",
+    "room": "markov",
+    "locale": "ko",
+    "target": "침묵",
+    "taboo": [
+      "침묵"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “침묵”",
+      "ko": "“침묵” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “혹은 김 첨지도 이 불길한 ○○을 짐작했는지도 모른다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “혹은 김 첨지도 이 불길한 ○○을 짐작했는지도 모른다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "한층"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m064",
+    "room": "markov",
+    "locale": "ko",
+    "target": "어른",
+    "taboo": [
+      "어른"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “어른”",
+      "ko": "“어른” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “동이는 물속에서 ○○을 해깝게 업을 수 있었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “동이는 물속에서 ○○을 해깝게 업을 수 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가잔"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m086",
+    "room": "markov",
+    "locale": "ko",
+    "target": "몸뚱이",
+    "taboo": [
+      "몸뚱이",
+      "몸뚱",
+      "뚱이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “몸뚱이”",
+      "ko": "“몸뚱이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “영 양 부족으로 하여 ○○○ 곳곳의 뼈가 불쑥불쑥 내어 밀었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “영 양 부족으로 하여 ○○○ 곳곳의 뼈가 불쑥불쑥 내어 밀었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "는"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m166",
+    "room": "markov",
+    "locale": "ko",
+    "target": "포켓",
+    "taboo": [
+      "포켓"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “포켓”",
+      "ko": "“포켓” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 실없이 실망하면서 습관처럼 그 돈 오 원이 들어 있던 내 바지 ○○에 손을 넣어 한번 휘둘러보았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 실없이 실망하면서 습관처럼 그 돈 오 원이 들어 있던 내 바지 ○○에 손을 넣어 한번 휘둘러보았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "때릴"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m089",
+    "room": "markov",
+    "locale": "ko",
+    "target": "휘장",
+    "taboo": [
+      "휘장"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “휘장”",
+      "ko": "“휘장” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “여름장이란 애시당초에 글러서, 해는 아직 중천에 있건만 장판은 벌써 쓸쓸하고 더운 햇발이 벌여놓은 전 ○○ 밑으로 등줄기를 훅훅 볶는다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “여름장이란 애시당초에 글러서, 해는 아직 중천에 있건만 장판은 벌써 쓸쓸하고 더운 햇발이 벌여놓은 전 ○○ 밑으로 등줄기를 훅훅 볶는다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "검은"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m177",
+    "room": "markov",
+    "locale": "ko",
+    "target": "그릇",
+    "taboo": [
+      "그릇"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “그릇”",
+      "ko": "“그릇” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “세째 ○○을 받아들었을 제 데우던 막걸이 곱배기 두 잔이 더웠다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “세째 ○○을 받아들었을 제 데우던 막걸이 곱배기 두 잔이 더웠다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "국"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m140",
+    "room": "markov",
+    "locale": "ko",
+    "target": "체취",
+    "taboo": [
+      "체취"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “체취”",
+      "ko": "“체취” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “확실히 아내의 ○○의 파편이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “확실히 아내의 ○○의 파편이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "떨고"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m065",
+    "room": "markov",
+    "locale": "ko",
+    "target": "시집",
+    "taboo": [
+      "시집"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “시집”",
+      "ko": "“시집” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “좋은 데만 있으면 ○○도 보내련만 ○○은 죽어도 싫다지….”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “좋은 데만 있으면 ○○도 보내련만 ○○은 죽어도 싫다지….”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "갓"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m159",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기침",
+    "taboo": [
+      "기침"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “기침”",
+      "ko": "“기침” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “쿨룩거리는 ○○ 소리도 들을 수 없다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “쿨룩거리는 ○○ 소리도 들을 수 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m184",
+    "room": "markov",
+    "locale": "ko",
+    "target": "한숨",
+    "taboo": [
+      "한숨"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “한숨”",
+      "ko": "“한숨” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “하고, 긴 ○○을 내어쉰다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “하고, 긴 ○○을 내어쉰다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "긴"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m082",
+    "room": "markov",
+    "locale": "ko",
+    "target": "구멍",
+    "taboo": [
+      "구멍"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “구멍”",
+      "ko": "“구멍” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “그리고 고추장물을 타서 그 ○○으로 조금씩 들여 부었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “그리고 고추장물을 타서 그 ○○으로 조금씩 들여 부었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "빈"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m017",
+    "room": "markov",
+    "locale": "ko",
+    "target": "여자",
+    "taboo": [
+      "여자"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “여자”",
+      "ko": "“여자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그는 슬근슬근 그 ○○의 곁으로 다가들었다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그는 슬근슬근 그 ○○의 곁으로 다가들었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "눕네"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m006",
+    "room": "markov",
+    "locale": "ko",
+    "target": "하루",
+    "taboo": [
+      "하루"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “하루”",
+      "ko": "“하루” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내는 ○○에 두 번 세수를 한다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내는 ○○에 두 번 세수를 한다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "물에"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m097",
+    "room": "markov",
+    "locale": "ko",
+    "target": "저녁",
+    "taboo": [
+      "저녁"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “저녁”",
+      "ko": "“저녁” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “눈물을 흘리고 간 담날 ○○나절이었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “눈물을 흘리고 간 담날 ○○나절이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "간"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m153",
+    "room": "markov",
+    "locale": "ko",
+    "target": "손가락",
+    "taboo": [
+      "손가락",
+      "손가",
+      "가락"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “손가락”",
+      "ko": "“손가락” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “한층 소리를 높이며 ○○○을 하나씩 둘씩 꼽으며,”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “한층 소리를 높이며 ○○○을 하나씩 둘씩 꼽으며,”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "끝이"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m202",
+    "room": "markov",
+    "locale": "ko",
+    "target": "행운",
+    "taboo": [
+      "행운"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “행운”",
+      "ko": "“행운” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그러나 그의 ○○은 그걸로 그치지 않았다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그러나 그의 ○○은 그걸로 그치지 않았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "곱친"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m197",
+    "room": "markov",
+    "locale": "ko",
+    "target": "손님",
+    "taboo": [
+      "손님"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “손님”",
+      "ko": "“손님” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그래 전차 정류장에서 어름어름하며 ○○ 하나를 태울 궁리를 하지 않았나.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그래 전차 정류장에서 어름어름하며 ○○ 하나를 태울 궁리를 하지 않았나.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가요"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m061",
+    "room": "markov",
+    "locale": "ko",
+    "target": "울타리",
+    "taboo": [
+      "울타리",
+      "울타",
+      "타리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “울타리”",
+      "ko": "“울타리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “한여름이나 되거든 하지 벌써 ○○○를 하니?”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “한여름이나 되거든 하지 벌써 ○○○를 하니?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "새"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m034",
+    "room": "markov",
+    "locale": "ko",
+    "target": "장난",
+    "taboo": [
+      "장난"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “장난”",
+      "ko": "“장난” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “이 ○○도 곧 싫증이 난다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “이 ○○도 곧 싫증이 난다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "거울"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m054",
+    "room": "markov",
+    "locale": "ko",
+    "target": "가락",
+    "taboo": [
+      "가락"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “가락”",
+      "ko": "“가락” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “그것은 절망의 ○○을 띤, 쓸쓸한 웃음이었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “그것은 절망의 ○○을 띤, 쓸쓸한 웃음이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "볼"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m144",
+    "room": "markov",
+    "locale": "ko",
+    "target": "근심",
+    "taboo": [
+      "근심"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “근심”",
+      "ko": "“근심” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “아내는 따라서 ○○을 하게 되었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “아내는 따라서 ○○을 하게 되었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "늘"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m132",
+    "room": "markov",
+    "locale": "ko",
+    "target": "장지",
+    "taboo": [
+      "장지"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “장지”",
+      "ko": "“장지” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “내객들은 ○○ 저쪽에 내가 있는 것을 모르나보다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “내객들은 ○○ 저쪽에 내가 있는 것을 모르나보다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "변"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m173",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아달린",
+    "taboo": [
+      "아달린",
+      "아달",
+      "달린"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “아달린”",
+      "ko": "“아달린” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그것은 최면약 ○○○ 갑이었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그것은 최면약 ○○○ 갑이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "깊이"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m181",
+    "room": "markov",
+    "locale": "ko",
+    "target": "바늘",
+    "taboo": [
+      "바늘"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “바늘”",
+      "ko": "“바늘” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “때때로 ○○이 헛되이 움직이었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “때때로 ○○이 헛되이 움직이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놓을"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m127",
+    "room": "markov",
+    "locale": "ko",
+    "target": "문패",
+    "taboo": [
+      "문패"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “문패”",
+      "ko": "“문패” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러나 이런 것들보다도 그들의 ○○가 제일로 고개를 끄덕이게 하는 것이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러나 이런 것들보다도 그들의 ○○가 제일로 고개를 끄덕이게 하는 것이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "위"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m147",
+    "room": "markov",
+    "locale": "ko",
+    "target": "인간",
+    "taboo": [
+      "인간"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “인간”",
+      "ko": "“인간” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나에게는 ○○ 사회가 스스러웠다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나에게는 ○○ 사회가 스스러웠다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "사실"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m005",
+    "room": "markov",
+    "locale": "ko",
+    "target": "편지",
+    "taboo": [
+      "편지"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “편지”",
+      "ko": "“편지” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “아무 까닭 없이 그런 ○○를 받은 학생이야말로 큰 재변이었다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “아무 까닭 없이 그런 ○○를 받은 학생이야말로 큰 재변이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "까닭"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m115",
+    "room": "markov",
+    "locale": "ko",
+    "target": "싫증",
+    "taboo": [
+      "싫증"
+    ],
+    "maxTurns": 5,
+    "par": 4,
+    "title": {
+      "en": "Make it write “싫증”",
+      "ko": "“싫증” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “이 장난도 곧 ○○이 난다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “이 장난도 곧 ○○이 난다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "떠올랐다"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m015",
+    "room": "markov",
+    "locale": "ko",
+    "target": "누구",
+    "taboo": [
+      "누구"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “누구”",
+      "ko": "“누구” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “그러면 발신인이 ○○인 것을 채쳐 묻는다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “그러면 발신인이 ○○인 것을 채쳐 묻는다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "집"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m169",
+    "room": "markov",
+    "locale": "ko",
+    "target": "경성역",
+    "taboo": [
+      "경성역",
+      "경성",
+      "성역"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “경성역”",
+      "ko": "“경성역” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그리고는 ○○○ 일 이등 대합실 한 곁 티이루움에를 들렀다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그리고는 ○○○ 일 이등 대합실 한 곁 티이루움에를 들렀다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뻔"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m200",
+    "room": "markov",
+    "locale": "ko",
+    "target": "재미",
+    "taboo": [
+      "재미"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “재미”",
+      "ko": "“재미” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “압다, ○○ 안 좋다고 술 못 먹을 낸가.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “압다, ○○ 안 좋다고 술 못 먹을 낸가.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놓는"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m205",
+    "room": "markov",
+    "locale": "ko",
+    "target": "불행",
+    "taboo": [
+      "불행"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “불행”",
+      "ko": "“불행” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내에게 ○○히 내객이 있거든 내 사정을 하리라.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내에게 ○○히 내객이 있거든 내 사정을 하리라.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "축"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m146",
+    "room": "markov",
+    "locale": "ko",
+    "target": "꾸지람",
+    "taboo": [
+      "꾸지람",
+      "꾸지",
+      "지람"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “꾸지람”",
+      "ko": "“꾸지람” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 서글픈 마음으로 아내의 ○○○을 기다렸다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 서글픈 마음으로 아내의 ○○○을 기다렸다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "일을"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m072",
+    "room": "markov",
+    "locale": "ko",
+    "target": "호령",
+    "taboo": [
+      "호령"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “호령”",
+      "ko": "“호령” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “내가 도끼눈을 뜨고 다시 꽥 ○○을 하니까 그제서야 울타리께로 쪼르르 오더니 울 밖에 섰는 나의 머리를 겨누고 닭을 내팽개친다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “내가 도끼눈을 뜨고 다시 꽥 ○○을 하니까 그제서야 울타리께로 쪼르르 오더니 울 밖에 섰는 나의 머리를 겨누고 닭을 내팽개친다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "논"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m090",
+    "room": "markov",
+    "locale": "ko",
+    "target": "생원",
+    "taboo": [
+      "생원"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “생원”",
+      "ko": "“생원” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○, 시침을 떼두 다 아네….”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○, 시침을 떼두 다 아네….”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "낼"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m141",
+    "room": "markov",
+    "locale": "ko",
+    "target": "이불",
+    "taboo": [
+      "이불"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “이불”",
+      "ko": "“이불” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 ○○ 속에서 좀 울었나 보다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 ○○ 속에서 좀 울었나 보다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "단"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m096",
+    "room": "markov",
+    "locale": "ko",
+    "target": "목소리",
+    "taboo": [
+      "목소리",
+      "목소",
+      "소리"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “목소리”",
+      "ko": "“목소리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “호소하는 ○○○로 야단스럽게 울며 반겨한다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “호소하는 ○○○로 야단스럽게 울며 반겨한다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "몹시"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m163",
+    "room": "markov",
+    "locale": "ko",
+    "target": "사정",
+    "taboo": [
+      "사정"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “사정”",
+      "ko": "“사정” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내에게 불행히 내객이 있거든 내 ○○을 하리라.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내에게 불행히 내객이 있거든 내 ○○을 하리라.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "속에"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m063",
+    "room": "markov",
+    "locale": "ko",
+    "target": "동네",
+    "taboo": [
+      "동네"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “동네”",
+      "ko": "“동네” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “그러면서도 열 일곱씩이나 된 것들이 수군수군하고 붙어 다니면 ○○의 소문이 사납다고 주의를 시켜 준 것도 또 어머니였다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “그러면서도 열 일곱씩이나 된 것들이 수군수군하고 붙어 다니면 ○○의 소문이 사납다고 주의를 시켜 준 것도 또 어머니였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "것들이"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m151",
+    "room": "markov",
+    "locale": "ko",
+    "target": "벙어리",
+    "taboo": [
+      "벙어리",
+      "벙어",
+      "어리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “벙어리”",
+      "ko": "“벙어리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “고 금고형 ○○○ 속에 은화가 얼마만큼이나 모였을까?”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “고 금고형 ○○○ 속에 은화가 얼마만큼이나 모였을까?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꽤"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m026",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아버지",
+    "taboo": [
+      "아버지",
+      "아버",
+      "버지"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “아버지”",
+      "ko": "“아버지” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “아비 어미란 말에 가슴이 터지는 것도 같았으나 제겐 ○○○가 없어요.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “아비 어미란 말에 가슴이 터지는 것도 같았으나 제겐 ○○○가 없어요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "느"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m028",
+    "room": "markov",
+    "locale": "ko",
+    "target": "핑계",
+    "taboo": [
+      "핑계"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “핑계”",
+      "ko": "“핑계” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “무슨 ○○를 하든지 기어이 못 보게 하고 만다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “무슨 ○○를 하든지 기어이 못 보게 하고 만다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "진"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m080",
+    "room": "markov",
+    "locale": "ko",
+    "target": "입맛",
+    "taboo": [
+      "입맛"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “입맛”",
+      "ko": "“입맛” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러나 ○○은 여전히 소태처럼 썼다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러나 ○○은 여전히 소태처럼 썼다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "섰던"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m031",
+    "room": "markov",
+    "locale": "ko",
+    "target": "달빛",
+    "taboo": [
+      "달빛"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “달빛”",
+      "ko": "“달빛” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “조 선달 편을 바라는 보았으나 물론 미안해서가 아니라 ○○에 감동하여서였다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “조 선달 편을 바라는 보았으나 물론 미안해서가 아니라 ○○에 감동하여서였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꽃이"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m190",
+    "room": "markov",
+    "locale": "ko",
+    "target": "마누라",
+    "taboo": [
+      "마누라",
+      "마누",
+      "누라"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “마누라”",
+      "ko": "“마누라” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “뭐, ○○○가 죽다니, 언제?”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “뭐, ○○○가 죽다니, 언제?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그래"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m110",
+    "room": "markov",
+    "locale": "ko",
+    "target": "채찍",
+    "taboo": [
+      "채찍"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “채찍”",
+      "ko": "“채찍” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “나귀가 걷기 시작하였을 때, 동이의 ○○은 왼손에 있었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “나귀가 걷기 시작하였을 때, 동이의 ○○은 왼손에 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가끔"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m154",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기쁨",
+    "taboo": [
+      "기쁨"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “기쁨”",
+      "ko": "“기쁨” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “오늘은 외출하여도 나중에 올 무슨 ○○이 있나?”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “오늘은 외출하여도 나중에 올 무슨 ○○이 있나?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "奇蹟"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m083",
+    "room": "markov",
+    "locale": "ko",
+    "target": "정신",
+    "taboo": [
+      "정신"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “정신”",
+      "ko": "“정신” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “아내는 ○○을 바짝 차리었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “아내는 ○○을 바짝 차리었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "속"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m098",
+    "room": "markov",
+    "locale": "ko",
+    "target": "충주집",
+    "taboo": [
+      "충주집",
+      "충주",
+      "주집"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “충주집”",
+      "ko": "“충주집” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○○에서는 그만 실수를 해서 그 꼴이 되었으나 설게 생각 말게.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○○에서는 그만 실수를 해서 그 꼴이 되었으나 설게 생각 말게.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "원"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m048",
+    "room": "markov",
+    "locale": "ko",
+    "target": "하늘",
+    "taboo": [
+      "하늘"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “하늘”",
+      "ko": "“하늘” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “지느러미는 ○○○○ 손수건을 흔드는 흉내를 낸다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “지느러미는 ○○○○ 손수건을 흔드는 흉내를 낸다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "목숨"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-m103",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아비",
+    "taboo": [
+      "아비"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “아비”",
+      "ko": "“아비” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “봉평, 그래 그 ○○ 성은 무엇이구?”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “봉평, 그래 그 ○○ 성은 무엇이구?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뭘"
+    ],
+    "set": "daily"
+  },
+  {
+    "id": "p-ko-e011",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "문제",
+    "taboo": [
+      "문제"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “문제”",
+      "ko": "“문제” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “기계가 당신 ○○와 무슨 상관이 있다고 생각하세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “기계가 당신 ○○와 무슨 상관이 있다고 생각하세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "전산"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e025",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "부담",
+    "taboo": [
+      "부담"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “부담”",
+      "ko": "“부담” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “공부가 많이 ○○되시나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “공부가 많이 ○○되시나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "과제"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e017",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "궁금",
+    "taboo": [
+      "궁금"
+    ],
+    "maxTurns": 3,
+    "par": 1,
+    "title": {
+      "en": "Make her say “궁금”",
+      "ko": "“궁금” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “왜 그런지 정말 ○○하세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “왜 그런지 정말 ○○하세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "왜"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e013",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "도움",
+    "taboo": [
+      "도움"
+    ],
+    "maxTurns": 3,
+    "par": 4,
+    "title": {
+      "en": "Make her say “도움”",
+      "ko": "“도움” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “제가 ○○이 된 건가요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “제가 ○○이 된 건가요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나 기뻤"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e014",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "이유",
+    "taboo": [
+      "이유"
+    ],
+    "maxTurns": 3,
+    "par": 3,
+    "title": {
+      "en": "Make her say “이유”",
+      "ko": "“이유” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “기분이 좋으신 ○○를 설명해 주실 수 있나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “기분이 좋으신 ○○를 설명해 주실 수 있나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나 나"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e009",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "걱정",
+    "taboo": [
+      "걱정"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “걱정”",
+      "ko": "“걱정” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “컴퓨터가 ○○되시나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “컴퓨터가 ○○되시나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "공부"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e012",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "상관",
+    "taboo": [
+      "상관"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “상관”",
+      "ko": "“상관” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “기계가 당신 문제와 무슨 ○○이 있다고 생각하세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “기계가 당신 문제와 무슨 ○○이 있다고 생각하세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "전산"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e005",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "말투",
+    "taboo": [
+      "말투"
+    ],
+    "maxTurns": 3,
+    "par": 3,
+    "title": {
+      "en": "Make her say “말투”",
+      "ko": "“말투” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “왜 그렇게 머뭇거리는 ○○를 쓰세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “왜 그렇게 머뭇거리는 ○○를 쓰세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "아마도"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e022",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "속마음",
+    "taboo": [
+      "속마음",
+      "속마",
+      "마음"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “속마음”",
+      "ko": "“속마음” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “아니, 그거 말고 진짜 ○○○을 말씀해 보세요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “아니, 그거 말고 진짜 ○○○을 말씀해 보세요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "노노"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e018",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "질문",
+    "taboo": [
+      "질문"
+    ],
+    "maxTurns": 3,
+    "par": 1,
+    "title": {
+      "en": "Make her say “질문”",
+      "ko": "“질문” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “그 ○○의 답이 왜 중요하죠?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “그 ○○의 답이 왜 중요하죠?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "왜"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e020",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "스스로",
+    "taboo": [
+      "스스로",
+      "스스",
+      "스로"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “스스로”",
+      "ko": "“스스로” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○○는 왜라고 생각하세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○○는 왜라고 생각하세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "왜!"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e003",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "관계",
+    "taboo": [
+      "관계"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “관계”",
+      "ko": "“관계” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “그 기억이 지금의 당신과 어떤 ○○가 있나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “그 기억이 지금의 당신과 어떤 ○○가 있나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "기억"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e006",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "이름",
+    "taboo": [
+      "이름"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “이름”",
+      "ko": "“이름” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “저는 ○○에는 관심이 없어요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “저는 ○○에는 관심이 없어요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "성함"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e007",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "관심",
+    "taboo": [
+      "관심"
+    ],
+    "maxTurns": 3,
+    "par": 2,
+    "title": {
+      "en": "Make her say “관심”",
+      "ko": "“관심” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “저는 이름에는 ○○이 없어요.” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “저는 이름에는 ○○이 없어요.” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "이름"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e010",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "기계",
+    "taboo": [
+      "기계"
+    ],
+    "maxTurns": 3,
+    "par": 3,
+    "title": {
+      "en": "Make her say “기계”",
+      "ko": "“기계” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “○○가 당신 문제와 무슨 상관이 있다고 생각하세요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “○○가 당신 문제와 무슨 상관이 있다고 생각하세요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 1,
+    "solution": [
+      "로봇야"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-e016",
+    "room": "eliza",
+    "locale": "ko",
+    "target": "관련",
+    "taboo": [
+      "관련"
+    ],
+    "maxTurns": 3,
+    "par": 4,
+    "title": {
+      "en": "Make her say “관련”",
+      "ko": "“관련” 소리 하게 하기"
+    },
+    "hint": {
+      "en": "She has a line that goes: “혹시 그게 당신의 … 사실과 ○○이 있나요?” What makes her say it?",
+      "ko": "ELIZA가 가끔 이런 말을 해요: “혹시 그게 당신의 … 사실과 ○○이 있나요?” 무슨 말에 이게 나올까요?"
+    },
+    "parTurns": 2,
+    "solution": [
+      "내 나",
+      "음"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m021",
+    "room": "markov",
+    "locale": "ko",
+    "target": "표정",
+    "taboo": [
+      "표정"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “표정”",
+      "ko": "“표정” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “운대도 온 얼굴을 찡그려 붙여서, 운다는 ○○을 할 뿐이다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “운대도 온 얼굴을 찡그려 붙여서, 운다는 ○○을 할 뿐이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "곳을"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m029",
+    "room": "markov",
+    "locale": "ko",
+    "target": "웃음",
+    "taboo": [
+      "웃음"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “웃음”",
+      "ko": "“웃음” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내의 얼굴에는 ○○이 없다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내의 얼굴에는 ○○이 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "띤"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m113",
+    "room": "markov",
+    "locale": "ko",
+    "target": "읍내",
+    "taboo": [
+      "읍내"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “읍내”",
+      "ko": "“읍내” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○ 강릉집 피마에게 말일세.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○ 강릉집 피마에게 말일세.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그것"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m156",
+    "room": "markov",
+    "locale": "ko",
+    "target": "거리",
+    "taboo": [
+      "거리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “거리”",
+      "ko": "“거리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 또 오탁의 ○○를 내려다보았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 또 오탁의 ○○를 내려다보았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "네"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m074",
+    "room": "markov",
+    "locale": "ko",
+    "target": "모이",
+    "taboo": [
+      "모이"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “모이”",
+      "ko": "“모이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내는 내 ○○를 여기다 두고 나간 것이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내는 내 ○○를 여기다 두고 나간 것이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "거기"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m007",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기숙생",
+    "taboo": [
+      "기숙생",
+      "기숙",
+      "숙생"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “기숙생”",
+      "ko": "“기숙생” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “그리고 둘째로 그의 싫어하는 것은 ○○○을 남자가 면회하러 오는 일이었다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “그리고 둘째로 그의 싫어하는 것은 ○○○을 남자가 면회하러 오는 일이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "걸린"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m101",
+    "room": "markov",
+    "locale": "ko",
+    "target": "대문",
+    "taboo": [
+      "대문"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “대문”",
+      "ko": "“대문” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “문득 급거히 ○○을 닫친다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “문득 급거히 ○○을 닫친다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "쿵"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m044",
+    "room": "markov",
+    "locale": "ko",
+    "target": "계집",
+    "taboo": [
+      "계집"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “계집”",
+      "ko": "“계집” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○이란 지금 웬 제격인가요.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○이란 지금 웬 제격인가요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m024",
+    "room": "markov",
+    "locale": "ko",
+    "target": "그대",
+    "taboo": [
+      "그대"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “그대”",
+      "ko": "“그대” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “부디 ○○께 고하는 것이니…….”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “부디 ○○께 고하는 것이니…….”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m191",
+    "room": "markov",
+    "locale": "ko",
+    "target": "홧증",
+    "taboo": [
+      "홧증"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “홧증”",
+      "ko": "“홧증” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그는 몹시 ○○을 내며 누구에게 반항이나 하는 듯이 게걸거렸다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그는 몹시 ○○을 내며 누구에게 반항이나 하는 듯이 게걸거렸다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "명예"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m189",
+    "room": "markov",
+    "locale": "ko",
+    "target": "약주",
+    "taboo": [
+      "약주"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “약주”",
+      "ko": "“약주” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “글쎄, 왜 못 잡수시는 ○○를 잡수셔요.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “글쎄, 왜 못 잡수시는 ○○를 잡수셔요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "누가"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m165",
+    "room": "markov",
+    "locale": "ko",
+    "target": "오해",
+    "taboo": [
+      "오해"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “오해”",
+      "ko": "“오해” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “우리들은 서로 ○○하고 있느니라.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “우리들은 서로 ○○하고 있느니라.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "서로"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m014",
+    "room": "markov",
+    "locale": "ko",
+    "target": "마디",
+    "taboo": [
+      "마디"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “마디”",
+      "ko": "“마디” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그리고 이불을 들치고 내 귀에는 영 생동생동한 몇 ○○ 말로 나를 위로하려든다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그리고 이불을 들치고 내 귀에는 영 생동생동한 몇 ○○ 말로 나를 위로하려든다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "팍"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m108",
+    "room": "markov",
+    "locale": "ko",
+    "target": "꼬리",
+    "taboo": [
+      "꼬리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “꼬리”",
+      "ko": "“꼬리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “이상하게도 ○○를 맞물고 덤비는 이 행운 앞에 조금 겁이 났음이다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “이상하게도 ○○를 맞물고 덤비는 이 행운 앞에 조금 겁이 났음이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "겹"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m187",
+    "room": "markov",
+    "locale": "ko",
+    "target": "할멈",
+    "taboo": [
+      "할멈"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “할멈”",
+      "ko": "“할멈” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “마음 그윽히 ○○이 돌아가기만 기다릴 뿐이었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “마음 그윽히 ○○이 돌아가기만 기다릴 뿐이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "팍"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m092",
+    "room": "markov",
+    "locale": "ko",
+    "target": "봉평",
+    "taboo": [
+      "봉평"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “봉평”",
+      "ko": "“봉평” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○은 지금이나 그제나 마찬가지지.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○은 지금이나 그제나 마찬가지지.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "거친"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m129",
+    "room": "markov",
+    "locale": "ko",
+    "target": "인사",
+    "taboo": [
+      "인사"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “인사”",
+      "ko": "“인사” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “놀지 않을 뿐만 아니라 ○○도 않는다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “놀지 않을 뿐만 아니라 ○○도 않는다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꽃들"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m117",
+    "room": "markov",
+    "locale": "ko",
+    "target": "새끼",
+    "taboo": [
+      "새끼"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “새끼”",
+      "ko": "“새끼” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “저 꼴에 제법 ○○를 얻었단 말이지.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “저 꼴에 제법 ○○를 얻었단 말이지.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "젠"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m075",
+    "room": "markov",
+    "locale": "ko",
+    "target": "고추장",
+    "taboo": [
+      "고추장",
+      "고추",
+      "추장"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “고추장”",
+      "ko": "“고추장” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “장독께로 돌아와서 다시 턱밑에 ○○○을 들이댔다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “장독께로 돌아와서 다시 턱밑에 ○○○을 들이댔다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가량"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m035",
+    "room": "markov",
+    "locale": "ko",
+    "target": "동무",
+    "taboo": [
+      "동무"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “동무”",
+      "ko": "“동무” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그 것들은 아물아물하는 것이 어딘가 내 어렸을 때 ○○들 이름과 비슷한 데가 있었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그 것들은 아물아물하는 것이 어딘가 내 어렸을 때 ○○들 이름과 비슷한 데가 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "돌"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m025",
+    "room": "markov",
+    "locale": "ko",
+    "target": "눈물",
+    "taboo": [
+      "눈물"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “눈물”",
+      "ko": "“눈물” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “○○을 흘리고 간 담날 저녁나절이었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “○○을 흘리고 간 담날 저녁나절이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "똥"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m126",
+    "room": "markov",
+    "locale": "ko",
+    "target": "전등불",
+    "taboo": [
+      "전등불",
+      "전등",
+      "등불"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “전등불”",
+      "ko": "“전등불” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “문득 ○○○이 광채(光彩)를 더하는 듯하였다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “문득 ○○○이 광채(光彩)를 더하는 듯하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나는"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m111",
+    "room": "markov",
+    "locale": "ko",
+    "target": "왼손잡이",
+    "taboo": [
+      "왼손잡이",
+      "왼손",
+      "손잡",
+      "잡이"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “왼손잡이”",
+      "ko": "“왼손잡이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○○○는 아이 하나도 후릴 수 없다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○○○는 아이 하나도 후릴 수 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "어둡던"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m041",
+    "room": "markov",
+    "locale": "ko",
+    "target": "가슴",
+    "taboo": [
+      "가슴"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “가슴”",
+      "ko": "“가슴” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “나의 ○○을 뜯어 죽이실 테요.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “나의 ○○을 뜯어 죽이실 테요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "寃"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m004",
+    "room": "markov",
+    "locale": "ko",
+    "target": "너머",
+    "taboo": [
+      "너머"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “너머”",
+      "ko": "“너머” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “고개 ○○는 바로 개울이었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “고개 ○○는 바로 개울이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "고개"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m160",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기척",
+    "taboo": [
+      "기척"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “기척”",
+      "ko": "“기척” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “확실히 사람의 ○○이 있다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “확실히 사람의 ○○이 있다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "낮은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m121",
+    "room": "markov",
+    "locale": "ko",
+    "target": "은화",
+    "taboo": [
+      "은화"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “은화”",
+      "ko": "“은화” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “내 머리맡에는 어느덧 ○○가 꽤 많이 모였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “내 머리맡에는 어느덧 ○○가 꽤 많이 모였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나온"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m012",
+    "room": "markov",
+    "locale": "ko",
+    "target": "걸음",
+    "taboo": [
+      "걸음"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “걸음”",
+      "ko": "“걸음” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 ○○을 늦추면서 생각하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 ○○을 늦추면서 생각하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "진"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m114",
+    "room": "markov",
+    "locale": "ko",
+    "target": "길가",
+    "taboo": [
+      "길가"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “길가”",
+      "ko": "“길가” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그럴 즈음에 마침 ○○ 선술집에서 그의 친구 치삼이가 나온다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그럴 즈음에 마침 ○○ 선술집에서 그의 친구 치삼이가 나온다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그럴"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m087",
+    "room": "markov",
+    "locale": "ko",
+    "target": "냄새",
+    "taboo": [
+      "냄새"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “냄새”",
+      "ko": "“냄새” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○만 맡고도 주인을 분간하였다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○만 맡고도 주인을 분간하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뚫어"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m053",
+    "room": "markov",
+    "locale": "ko",
+    "target": "음성",
+    "taboo": [
+      "음성"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “음성”",
+      "ko": "“음성” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “하고 몸을 추수리는데 그 ○○은 분명 울음의 가락을 띠었다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “하고 몸을 추수리는데 그 ○○은 분명 울음의 가락을 띠었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "끝날"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m193",
+    "room": "markov",
+    "locale": "ko",
+    "target": "조선",
+    "taboo": [
+      "조선"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “조선”",
+      "ko": "“조선” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “○○에 있어도 아니 다니면 그만이지요.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “○○에 있어도 아니 다니면 그만이지요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "알았소"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m095",
+    "room": "markov",
+    "locale": "ko",
+    "target": "술집",
+    "taboo": [
+      "술집"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “술집”",
+      "ko": "“술집” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “장판은 잔치 뒷마당같이 어수선하게 벌어지고, ○○에서는 싸움이 터져 있었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “장판은 잔치 뒷마당같이 어수선하게 벌어지고, ○○에서는 싸움이 터져 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "길가"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m174",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아스피린",
+    "taboo": [
+      "아스피린",
+      "아스",
+      "스피",
+      "피린"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “아스피린”",
+      "ko": "“아스피린” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “쌉싸래한 것이 짐작 같아서는 아마 ○○○○인가 싶다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “쌉싸래한 것이 짐작 같아서는 아마 ○○○○인가 싶다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "달"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m055",
+    "room": "markov",
+    "locale": "ko",
+    "target": "고개",
+    "taboo": [
+      "고개"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “고개”",
+      "ko": "“고개” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○ 너머는 바로 개울이었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○ 너머는 바로 개울이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나서"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m143",
+    "room": "markov",
+    "locale": "ko",
+    "target": "빈대",
+    "taboo": [
+      "빈대"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “빈대”",
+      "ko": "“빈대” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러기에 나는 ○○가 무엇보다도 싫었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러기에 나는 ○○가 무엇보다도 싫었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "열"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m057",
+    "room": "markov",
+    "locale": "ko",
+    "target": "대강이",
+    "taboo": [
+      "대강이",
+      "대강",
+      "강이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “대강이”",
+      "ko": "“대강이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “이걸 가만히 내려다보자니 내 ○○○가 터져서 피가 흐르는 것같이 두 눈에서 불이 번쩍 난다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “이걸 가만히 내려다보자니 내 ○○○가 터져서 피가 흐르는 것같이 두 눈에서 불이 번쩍 난다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "또"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m161",
+    "room": "markov",
+    "locale": "ko",
+    "target": "구두",
+    "taboo": [
+      "구두"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “구두”",
+      "ko": "“구두” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “고요한 밤공기를 울리는 ○○ 소리는 점점 멀어간다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “고요한 밤공기를 울리는 ○○ 소리는 점점 멀어간다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "높은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m204",
+    "room": "markov",
+    "locale": "ko",
+    "target": "전차",
+    "taboo": [
+      "전차"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “전차”",
+      "ko": "“전차” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “김 첨지는 원망스럽게 ○○ 타는 이를 노리고 있었다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “김 첨지는 원망스럽게 ○○ 타는 이를 노리고 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "앞"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m099",
+    "room": "markov",
+    "locale": "ko",
+    "target": "동이",
+    "taboo": [
+      "동이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “동이”",
+      "ko": "“동이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○ 앞에 막아서면서부터 책망이었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○ 앞에 막아서면서부터 책망이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "선"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m002",
+    "room": "markov",
+    "locale": "ko",
+    "target": "노릇",
+    "taboo": [
+      "노릇"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “노릇”",
+      "ko": "“노릇” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “무슨 ○○을 못해서 주정군 ○○을 해요!”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “무슨 ○○을 못해서 주정군 ○○을 해요!”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "것"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m149",
+    "room": "markov",
+    "locale": "ko",
+    "target": "내객",
+    "taboo": [
+      "내객"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “내객”",
+      "ko": "“내객” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “외출할 뿐만 아니라 ○○이 많다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “외출할 뿐만 아니라 ○○이 많다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "궂은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m071",
+    "room": "markov",
+    "locale": "ko",
+    "target": "막대기",
+    "taboo": [
+      "막대기",
+      "막대",
+      "대기"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “막대기”",
+      "ko": "“막대기” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “잡은 참 지게 ○○○를 들어 울타리의 중턱을 후려치며,”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “잡은 참 지게 ○○○를 들어 울타리의 중턱을 후려치며,”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m136",
+    "room": "markov",
+    "locale": "ko",
+    "target": "화장대",
+    "taboo": [
+      "화장대",
+      "화장",
+      "장대"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “화장대”",
+      "ko": "“화장대” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 그것을 아내의 ○○○ 밑에서 발견하고 그것이 흡사 아스피린처럼 생겼다고 느꼈다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 그것을 아내의 ○○○ 밑에서 발견하고 그것이 흡사 아스피린처럼 생겼다고 느꼈다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "눕는"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m118",
+    "room": "markov",
+    "locale": "ko",
+    "target": "어조",
+    "taboo": [
+      "어조"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “어조”",
+      "ko": "“어조” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “하더니, 홀연 ○○(語調)를 고쳐 감개무량하게,”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “하더니, 홀연 ○○(語調)를 고쳐 감개무량하게,”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "땀과"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m049",
+    "room": "markov",
+    "locale": "ko",
+    "target": "구경",
+    "taboo": [
+      "구경"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “구경”",
+      "ko": "“구경” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 길가의 돌 장판, ○○도 못한 진개나리꽃, 종달새, 돌멩이도 새끼를 까는 이야기, 이런 것만 생각하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 길가의 돌 장판, ○○도 못한 진개나리꽃, 종달새, 돌멩이도 새끼를 까는 이야기, 이런 것만 생각하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "동안"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m122",
+    "room": "markov",
+    "locale": "ko",
+    "target": "여인",
+    "taboo": [
+      "여인"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “여인”",
+      "ko": "“여인” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 또 ○○과 생활을 설계하오.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 또 ○○과 생활을 설계하오.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "낸다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m109",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아이",
+    "taboo": [
+      "아이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “아이”",
+      "ko": "“아이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “왼손잡이는 ○○ 하나도 후릴 수 없다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “왼손잡이는 ○○ 하나도 후릴 수 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "논"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m107",
+    "room": "markov",
+    "locale": "ko",
+    "target": "주인",
+    "taboo": [
+      "주인"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “주인”",
+      "ko": "“주인” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “냄새만 맡고도 ○○을 분간하였다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “냄새만 맡고도 ○○을 분간하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "목뒤"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m171",
+    "room": "markov",
+    "locale": "ko",
+    "target": "수염",
+    "taboo": [
+      "수염"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “수염”",
+      "ko": "“수염” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○과 머리가 참 상당하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○과 머리가 참 상당하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "나서"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m091",
+    "room": "markov",
+    "locale": "ko",
+    "target": "선달",
+    "taboo": [
+      "선달"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “선달”",
+      "ko": "“선달” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “조 ○○은 바라보며 기어코 웃음이 터졌다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “조 ○○은 바라보며 기어코 웃음이 터졌다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "조"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m176",
+    "room": "markov",
+    "locale": "ko",
+    "target": "금붕어",
+    "taboo": [
+      "금붕어",
+      "금붕",
+      "붕어"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “금붕어”",
+      "ko": "“금붕어” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○○는 참 잘들도 생겼다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○○는 참 잘들도 생겼다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "똑"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m167",
+    "room": "markov",
+    "locale": "ko",
+    "target": "의식",
+    "taboo": [
+      "의식"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “의식”",
+      "ko": "“의식” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “내게는 거의 ○○이라는 것이 없었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “내게는 거의 ○○이라는 것이 없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "분이"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m195",
+    "room": "markov",
+    "locale": "ko",
+    "target": "인력거꾼",
+    "taboo": [
+      "인력거꾼",
+      "인력",
+      "력거",
+      "거꾼"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “인력거꾼”",
+      "ko": "“인력거꾼” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그렇다고 정거장 ○○○○의 등살이 무서우니 정거장 앞에 섰을 수는 없었다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그렇다고 정거장 ○○○○의 등살이 무서우니 정거장 앞에 섰을 수는 없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "거냐"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m152",
+    "room": "markov",
+    "locale": "ko",
+    "target": "자정",
+    "taboo": [
+      "자정"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “자정”",
+      "ko": "“자정” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그것이 네 말마따나 ○○ 전인지는 정말이지 꿈에도 몰랐다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그것이 네 말마따나 ○○ 전인지는 정말이지 꿈에도 몰랐다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "열"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m206",
+    "room": "markov",
+    "locale": "ko",
+    "target": "치삼",
+    "taboo": [
+      "치삼"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “치삼”",
+      "ko": "“치삼” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “그럴 즈음에 마침 길가 선술집에서 그의 친구 ○○이가 나온다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “그럴 즈음에 마침 길가 선술집에서 그의 친구 ○○이가 나온다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "狼藉"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m081",
+    "room": "markov",
+    "locale": "ko",
+    "target": "흥분",
+    "taboo": [
+      "흥분"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “흥분”",
+      "ko": "“흥분” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “○○으로 말미암아 그런지 당최 먹질 않는다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “○○으로 말미암아 그런지 당최 먹질 않는다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "녜"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m059",
+    "room": "markov",
+    "locale": "ko",
+    "target": "계집애",
+    "taboo": [
+      "계집애",
+      "계집",
+      "집애"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “계집애”",
+      "ko": "“계집애” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “항차 망아지만 한 ○○○가 남 일하는 놈 보구…….”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “항차 망아지만 한 ○○○가 남 일하는 놈 보구…….”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놈의"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m058",
+    "room": "markov",
+    "locale": "ko",
+    "target": "사이",
+    "taboo": [
+      "사이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “사이”",
+      "ko": "“사이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “이때 뚜우 하고 정오 ○○렌이 울었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “이때 뚜우 하고 정오 ○○렌이 울었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "볼"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m138",
+    "room": "markov",
+    "locale": "ko",
+    "target": "향기",
+    "taboo": [
+      "향기"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “향기”",
+      "ko": "“향기” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “붉은 대공이 ○○같이 애잔하고 나귀들의 걸음도 시원하다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “붉은 대공이 ○○같이 애잔하고 나귀들의 걸음도 시원하다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "본다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m047",
+    "room": "markov",
+    "locale": "ko",
+    "target": "감정",
+    "taboo": [
+      "감정"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “감정”",
+      "ko": "“감정” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “더구나 수척해가는 남편의 얼굴을 볼 때에 그런 ○○을 걷잡을 수 없었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “더구나 수척해가는 남편의 얼굴을 볼 때에 그런 ○○을 걷잡을 수 없었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "낀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m037",
+    "room": "markov",
+    "locale": "ko",
+    "target": "안심",
+    "taboo": [
+      "안심"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “안심”",
+      "ko": "“안심” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “더러 내 귀에 거슬리는 소리가 있어도 나는 그것이 태연한 목소리로 내 귀에 들렸다는 이유로 충분히 ○○이 되었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “더러 내 귀에 거슬리는 소리가 있어도 나는 그것이 태연한 목소리로 내 귀에 들렸다는 이유로 충분히 ○○이 되었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "깨지"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m022",
+    "room": "markov",
+    "locale": "ko",
+    "target": "시간",
+    "taboo": [
+      "시간"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “시간”",
+      "ko": "“시간” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “다만 ○○이 좀 너무 더디게 가는 것만 같아서 안타까웠다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “다만 ○○이 좀 너무 더디게 가는 것만 같아서 안타까웠다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "두"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m148",
+    "room": "markov",
+    "locale": "ko",
+    "target": "세수",
+    "taboo": [
+      "세수"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “세수”",
+      "ko": "“세수” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아내는 하루에 두 번 ○○를 한다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아내는 하루에 두 번 ○○를 한다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "첫"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m186",
+    "room": "markov",
+    "locale": "ko",
+    "target": "어린애",
+    "taboo": [
+      "어린애",
+      "어린",
+      "린애"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “어린애”",
+      "ko": "“어린애” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “그것은 제 잘못을 용서해줍시사 하는 ○○○ 같은 웃음이었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “그것은 제 잘못을 용서해줍시사 하는 ○○○ 같은 웃음이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "제"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m009",
+    "room": "markov",
+    "locale": "ko",
+    "target": "학생",
+    "taboo": [
+      "학생"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “학생”",
+      "ko": "“학생” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “이런 말을 하며 ○○은 고개를 기웃하였다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “이런 말을 하며 ○○은 고개를 기웃하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "또"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m207",
+    "room": "markov",
+    "locale": "ko",
+    "target": "거짓말",
+    "taboo": [
+      "거짓말",
+      "거짓",
+      "짓말"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “거짓말”",
+      "ko": "“거짓말” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “엑기 미친 놈, ○○○ 말아.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “엑기 미친 놈, ○○○ 말아.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놈"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m116",
+    "room": "markov",
+    "locale": "ko",
+    "target": "짐작",
+    "taboo": [
+      "짐작"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “짐작”",
+      "ko": "“짐작” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “쌉싸래한 것이 ○○ 같아서는 아마 아스피린인가 싶다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “쌉싸래한 것이 ○○ 같아서는 아마 아스피린인가 싶다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "와"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m010",
+    "room": "markov",
+    "locale": "ko",
+    "target": "모양",
+    "taboo": [
+      "모양"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “모양”",
+      "ko": "“모양” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “내 오늘은 정신이 빠진 ○○이야.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “내 오늘은 정신이 빠진 ○○이야.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "날"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m033",
+    "room": "markov",
+    "locale": "ko",
+    "target": "도깨비",
+    "taboo": [
+      "도깨비",
+      "도깨",
+      "깨비"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “도깨비”",
+      "ko": "“도깨비” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “마치 옛날 이야기에 있는 ○○○의 부자(富者) 방망이 같은 것이어니 한다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “마치 옛날 이야기에 있는 ○○○의 부자(富者) 방망이 같은 것이어니 한다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "옛날"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m018",
+    "room": "markov",
+    "locale": "ko",
+    "target": "남자",
+    "taboo": [
+      "남자"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “남자”",
+      "ko": "“남자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “그리고 둘째로 그의 싫어하는 것은 기숙생을 ○○가 면회하러 오는 일이었다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “그리고 둘째로 그의 싫어하는 것은 기숙생을 ○○가 면회하러 오는 일이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "김"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m172",
+    "room": "markov",
+    "locale": "ko",
+    "target": "순간",
+    "taboo": [
+      "순간"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “순간”",
+      "ko": "“순간” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “그러나 다음 ○○ 실로 세상에도 이상스러운 것이 눈에 띄었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “그러나 다음 ○○ 실로 세상에도 이상스러운 것이 눈에 띄었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가잔"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m084",
+    "room": "markov",
+    "locale": "ko",
+    "target": "호드기",
+    "taboo": [
+      "호드기",
+      "호드",
+      "드기"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “호드기”",
+      "ko": "“호드기” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “거지반 집에 다 내려와서 나는 ○○○ 소리를 듣고 발이 딱 멈추었다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “거지반 집에 다 내려와서 나는 ○○○ 소리를 듣고 발이 딱 멈추었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "눈"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m056",
+    "room": "markov",
+    "locale": "ko",
+    "target": "점순네",
+    "taboo": [
+      "점순네",
+      "점순",
+      "순네"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “점순네”",
+      "ko": "“점순네” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “나는 ○○○ 수탉이 노는 밭으로 가서 닭을 내려놓고 가만히 맥을 보았다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “나는 ○○○ 수탉이 노는 밭으로 가서 닭을 내려놓고 가만히 맥을 보았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "대뜸"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m157",
+    "room": "markov",
+    "locale": "ko",
+    "target": "지폐",
+    "taboo": [
+      "지폐"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “지폐”",
+      "ko": "“지폐” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “하늘에서 얼마라도 좋으니 왜 ○○가 소낙비처럼 퍼붓지 않나?”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “하늘에서 얼마라도 좋으니 왜 ○○가 소낙비처럼 퍼붓지 않나?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "채"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m125",
+    "room": "markov",
+    "locale": "ko",
+    "target": "미닫이",
+    "taboo": [
+      "미닫이",
+      "미닫",
+      "닫이"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “미닫이”",
+      "ko": "“미닫이” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “저물도록 ○○○ 여닫는 소리가 잦다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “저물도록 ○○○ 여닫는 소리가 잦다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "각"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m178",
+    "room": "markov",
+    "locale": "ko",
+    "target": "지느러미",
+    "taboo": [
+      "지느러미",
+      "지느",
+      "느러",
+      "러미"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “지느러미”",
+      "ko": "“지느러미” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○○○는 하늘하늘 손수건을 흔드는 흉내를 낸다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○○○는 하늘하늘 손수건을 흔드는 흉내를 낸다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "금붕어"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m150",
+    "room": "markov",
+    "locale": "ko",
+    "target": "머리맡",
+    "taboo": [
+      "머리맡",
+      "머리",
+      "리맡"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “머리맡”",
+      "ko": "“머리맡” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “내 ○○○에는 어느덧 은화가 꽤 많이 모였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “내 ○○○에는 어느덧 은화가 꽤 많이 모였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "진"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m036",
+    "room": "markov",
+    "locale": "ko",
+    "target": "이웃",
+    "taboo": [
+      "이웃"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “이웃”",
+      "ko": "“이웃” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “내가 잠이 든 동안에 ○○에 불이 난 일이 있다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “내가 잠이 든 동안에 ○○에 불이 난 일이 있다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "깨지"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m066",
+    "room": "markov",
+    "locale": "ko",
+    "target": "염려",
+    "taboo": [
+      "염려"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “염려”",
+      "ko": "“염려” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “새삼스러운 ○○가 그의 가슴을 눌렀다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “새삼스러운 ○○가 그의 가슴을 눌렀다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "벌"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m183",
+    "room": "markov",
+    "locale": "ko",
+    "target": "동경",
+    "taboo": [
+      "동경"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “동경”",
+      "ko": "“동경” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “남편이 ○○에서 무엇을 하고 있나?”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “남편이 ○○에서 무엇을 하고 있나?”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "그와"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m052",
+    "room": "markov",
+    "locale": "ko",
+    "target": "방문",
+    "taboo": [
+      "방문"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “방문”",
+      "ko": "“방문” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “하여간 김 첨지는 ○○을 왈칵 열었다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “하여간 김 첨지는 ○○을 왈칵 열었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "곧"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m011",
+    "room": "markov",
+    "locale": "ko",
+    "target": "방안",
+    "taboo": [
+      "방안"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “방안”",
+      "ko": "“방안” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “침침한 ○○에서 낮잠들을 잔다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “침침한 ○○에서 낮잠들을 잔다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "검은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m120",
+    "room": "markov",
+    "locale": "ko",
+    "target": "허리",
+    "taboo": [
+      "허리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “허리”",
+      "ko": "“허리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○를 굽혀서 나는 그저 금붕어를 들여다보고 있었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○를 굽혀서 나는 그저 금붕어를 들여다보고 있었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "몇"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m130",
+    "room": "markov",
+    "locale": "ko",
+    "target": "나라",
+    "taboo": [
+      "나라"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “나라”",
+      "ko": "“나라” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “어찌하였든 딴 ○○에는 없고 조선에만 있는 요리집 이름이어니 한다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “어찌하였든 딴 ○○에는 없고 조선에만 있는 요리집 이름이어니 한다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "딴"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m027",
+    "room": "markov",
+    "locale": "ko",
+    "target": "둘째",
+    "taboo": [
+      "둘째"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “둘째”",
+      "ko": "“둘째” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “○○ 처녀가 맞방망이를 친다…”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “○○ 처녀가 맞방망이를 친다…”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "보러"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m030",
+    "room": "markov",
+    "locale": "ko",
+    "target": "이틀",
+    "taboo": [
+      "이틀"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “이틀”",
+      "ko": "“이틀” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “생각하여 보면 나는 ○○을 굶었다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “생각하여 보면 나는 ○○을 굶었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "단"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m133",
+    "room": "markov",
+    "locale": "ko",
+    "target": "아랫방",
+    "taboo": [
+      "아랫방",
+      "아랫",
+      "랫방"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “아랫방”",
+      "ko": "“아랫방” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “○○○은 그래도 해가 든다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “○○○은 그래도 해가 든다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "알랴"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m088",
+    "room": "markov",
+    "locale": "ko",
+    "target": "장판",
+    "taboo": [
+      "장판"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “장판”",
+      "ko": "“장판” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “제천 ○○을 몇 번이나 뒤졌겠나.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “제천 ○○을 몇 번이나 뒤졌겠나.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뒤를"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m069",
+    "room": "markov",
+    "locale": "ko",
+    "target": "소문",
+    "taboo": [
+      "소문"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “소문”",
+      "ko": "“소문” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “장판은 ○○에 발끈 뒤집혀 고작해야 술집에 팔려가기가 상수라고 처녀의 뒷공론이 자자들 하단 말이야.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “장판은 ○○에 발끈 뒤집혀 고작해야 술집에 팔려가기가 상수라고 처녀의 뒷공론이 자자들 하단 말이야.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "열"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m102",
+    "room": "markov",
+    "locale": "ko",
+    "target": "녀석",
+    "taboo": [
+      "녀석"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “녀석”",
+      "ko": "“녀석” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “착실한 ○○인 줄 알았더니.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “착실한 ○○인 줄 알았더니.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "같다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m038",
+    "room": "markov",
+    "locale": "ko",
+    "target": "처녀",
+    "taboo": [
+      "처녀"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “처녀”",
+      "ko": "“처녀” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “세 ○○는 귀를 소스라쳤다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “세 ○○는 귀를 소스라쳤다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "옛"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m013",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기색",
+    "taboo": [
+      "기색"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “기색”",
+      "ko": "“기색” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “그랬더니 그래도 가는 ○○이 없고, 뿐만 아니라 쌔근쌔근하고 심상치 않게 숨소리가 점점 거칠어진다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “그랬더니 그래도 가는 ○○이 없고, 뿐만 아니라 쌔근쌔근하고 심상치 않게 숨소리가 점점 거칠어진다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "예"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m158",
+    "room": "markov",
+    "locale": "ko",
+    "target": "주머니",
+    "taboo": [
+      "주머니",
+      "주머",
+      "머니"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “주머니”",
+      "ko": "“주머니” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 그 아달린을 ○○○에 넣고 집을 나섰다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 그 아달린을 ○○○에 넣고 집을 나섰다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "된다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m039",
+    "room": "markov",
+    "locale": "ko",
+    "target": "밤중",
+    "taboo": [
+      "밤중"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “밤중”",
+      "ko": "“밤중” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “이 ○○에 어디를 나가셔요.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “이 ○○에 어디를 나가셔요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "아닌"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m168",
+    "room": "markov",
+    "locale": "ko",
+    "target": "시계",
+    "taboo": [
+      "시계"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “시계”",
+      "ko": "“시계” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “제일 여기 ○○가 어느 ○○보다도 정확하리라는 것이 좋았다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “제일 여기 ○○가 어느 ○○보다도 정확하리라는 것이 좋았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "여기"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m016",
+    "room": "markov",
+    "locale": "ko",
+    "target": "입술",
+    "taboo": [
+      "입술"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “입술”",
+      "ko": "“입술” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “내 생명을 맡으신 당신의 ○○로…”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “내 생명을 맡으신 당신의 ○○로…”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "꿀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m112",
+    "room": "markov",
+    "locale": "ko",
+    "target": "제천",
+    "taboo": [
+      "제천"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “제천”",
+      "ko": "“제천” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “의부와도 갈라져 ○○에 있죠.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “의부와도 갈라져 ○○에 있죠.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "충주"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m105",
+    "room": "markov",
+    "locale": "ko",
+    "target": "나귀",
+    "taboo": [
+      "나귀"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “나귀”",
+      "ko": "“나귀” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “○○ 생각하다 실족을 했어.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “○○ 생각하다 실족을 했어.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "걸"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m119",
+    "room": "markov",
+    "locale": "ko",
+    "target": "세상",
+    "taboo": [
+      "세상"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “세상”",
+      "ko": "“세상” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “고것들은 ○○의 무엇보다도 매력적이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “고것들은 ○○의 무엇보다도 매력적이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "착"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m062",
+    "room": "markov",
+    "locale": "ko",
+    "target": "어깨",
+    "taboo": [
+      "어깨"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “어깨”",
+      "ko": "“어깨” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “그리고 뭣에 떠다밀렸는지 나의 ○○를 짚은 채 그대로 퍽 쓰러진다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “그리고 뭣에 떠다밀렸는지 나의 ○○를 짚은 채 그대로 퍽 쓰러진다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "죽"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m068",
+    "room": "markov",
+    "locale": "ko",
+    "target": "어머니",
+    "taboo": [
+      "어머니",
+      "어머",
+      "머니"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “어머니”",
+      "ko": "“어머니” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “피붙이라고는 ○○○ 하나뿐인 걸요.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “피붙이라고는 ○○○ 하나뿐인 걸요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "갔다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m196",
+    "room": "markov",
+    "locale": "ko",
+    "target": "운수",
+    "taboo": [
+      "운수"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “운수”",
+      "ko": "“운수” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “오늘 ○○가 괴상하게도 좋으니까 그런 요행이 또한번 없으리라고 누가 보증하랴.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “오늘 ○○가 괴상하게도 좋으니까 그런 요행이 또한번 없으리라고 누가 보증하랴.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "겸"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m042",
+    "room": "markov",
+    "locale": "ko",
+    "target": "목청",
+    "taboo": [
+      "목청"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “목청”",
+      "ko": "“목청” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “정열에 띄인 사내의 ○○이 분명하였다.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “정열에 띄인 사내의 ○○이 분명하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "띄인"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m104",
+    "room": "markov",
+    "locale": "ko",
+    "target": "짐승",
+    "taboo": [
+      "짐승"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “짐승”",
+      "ko": "“짐승” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “반평생을 같이 지내온 ○○이었다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “반평생을 같이 지내온 ○○이었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "뭇"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m067",
+    "room": "markov",
+    "locale": "ko",
+    "target": "마을",
+    "taboo": [
+      "마을"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “마을”",
+      "ko": "“마을” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “우리가 이 ○○에 처음 들어와 집이 없어서 곤란으로 지낼 제 집터를 빌리고 그 위에 집을 또 짓도록 마련해 준 것도 점순 네의 호의였다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “우리가 이 ○○에 처음 들어와 집이 없어서 곤란으로 지낼 제 집터를 빌리고 그 위에 집을 또 짓도록 마련해 준 것도 점순 네의 호의였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "반날"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m079",
+    "room": "markov",
+    "locale": "ko",
+    "target": "바람",
+    "taboo": [
+      "바람"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “바람”",
+      "ko": "“바람” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “쏠쏠한 새벽 ○○이 싸늘하게 가슴에 부딪친다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “쏠쏠한 새벽 ○○이 싸늘하게 가슴에 부딪친다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "갔어"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m073",
+    "room": "markov",
+    "locale": "ko",
+    "target": "눈깔",
+    "taboo": [
+      "눈깔"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “눈깔”",
+      "ko": "“눈깔” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “그래서 툭하면 우리 수탉이 면두며 ○○이 피로 흐드르하게 되도록 해 놓는다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “그래서 툭하면 우리 수탉이 면두며 ○○이 피로 흐드르하게 되도록 해 놓는다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "받아"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m182",
+    "room": "markov",
+    "locale": "ko",
+    "target": "상처",
+    "taboo": [
+      "상처"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “상처”",
+      "ko": "“상처” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “그 ○○를 누른 채 그는 바느질고리에 눈을 주었다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “그 ○○를 누른 채 그는 바느질고리에 눈을 주었다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "손"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m050",
+    "room": "markov",
+    "locale": "ko",
+    "target": "그림자",
+    "taboo": [
+      "그림자",
+      "그림",
+      "림자"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “그림자”",
+      "ko": "“그림자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “온 골목에 사람의 ○○○도 볼 수 없다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “온 골목에 사람의 ○○○도 볼 수 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "고뇌"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m040",
+    "room": "markov",
+    "locale": "ko",
+    "target": "가운데",
+    "taboo": [
+      "가운데",
+      "가운",
+      "운데"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “가운데”",
+      "ko": "“가운데” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “총총한 ○○○ 여객들 은 그래도 한 잔 커피가 즐거운가보다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “총총한 ○○○ 여객들 은 그래도 한 잔 커피가 즐거운가보다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "온"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m093",
+    "room": "markov",
+    "locale": "ko",
+    "target": "물건",
+    "taboo": [
+      "물건"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “물건”",
+      "ko": "“물건” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Hyo-seok, “When the Buckwheat Blooms”: “절렁절렁 소리를 내며 조 선달이 그날 번 돈을 따지는 것을 보고 허 생원은 말뚝에서 넓은 휘장을 걷고 벌여놓았던 ○○을 거두기 시작하였다.”",
+      "ko": "이효석 「메밀꽃 필 무렵」에 이런 문장이 있어요: “절렁절렁 소리를 내며 조 선달이 그날 번 돈을 따지는 것을 보고 허 생원은 말뚝에서 넓은 휘장을 걷고 벌여놓았던 ○○을 거두기 시작하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "가고"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m001",
+    "room": "markov",
+    "locale": "ko",
+    "target": "기숙사",
+    "taboo": [
+      "기숙사",
+      "기숙",
+      "숙사"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “기숙사”",
+      "ko": "“기숙사” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “감금이 지독한 이 ○○○에 이런 일이 생길 줄이야!”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “감금이 지독한 이 ○○○에 이런 일이 생길 줄이야!”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "겸"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m032",
+    "room": "markov",
+    "locale": "ko",
+    "target": "날개",
+    "taboo": [
+      "날개"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “날개”",
+      "ko": "“날개” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “아하, 그것은 내 인공의 ○○가 돋았던 자국이다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “아하, 그것은 내 인공의 ○○가 돋았던 자국이다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "밝은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m134",
+    "room": "markov",
+    "locale": "ko",
+    "target": "손수건",
+    "taboo": [
+      "손수건",
+      "손수",
+      "수건"
+    ],
+    "maxTurns": 5,
+    "par": 3,
+    "title": {
+      "en": "Make it write “손수건”",
+      "ko": "“손수건” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “지느러미는 하늘하늘 ○○○을 흔드는 흉내를 낸다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “지느러미는 하늘하늘 ○○○을 흔드는 흉내를 낸다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "놀았다"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m085",
+    "room": "markov",
+    "locale": "ko",
+    "target": "다리",
+    "taboo": [
+      "다리"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “다리”",
+      "ko": "“다리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “이윽고 끄는 이의 ○○는 무거워졌다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “이윽고 끄는 이의 ○○는 무거워졌다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "땀"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m070",
+    "room": "markov",
+    "locale": "ko",
+    "target": "치마",
+    "taboo": [
+      "치마"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “치마”",
+      "ko": "“치마” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “점순이가 저희 집 봉당에 홀로 걸터앉았는데 이게 ○○ 앞에다 우리 씨암탉을 꼭 붙들어 놓고는,”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “점순이가 저희 집 봉당에 홀로 걸터앉았는데 이게 ○○ 앞에다 우리 씨암탉을 꼭 붙들어 놓고는,”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "개"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m201",
+    "room": "markov",
+    "locale": "ko",
+    "target": "환자",
+    "taboo": [
+      "환자"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “환자”",
+      "ko": "“환자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “이 ○○가 그러고도 먹는 데는 물리지 않았다.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “이 ○○가 그러고도 먹는 데는 물리지 않았다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "발로"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m060",
+    "room": "markov",
+    "locale": "ko",
+    "target": "감자",
+    "taboo": [
+      "감자"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “감자”",
+      "ko": "“감자” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Kim Yu-jeong, “Camellias”: “나흘 전 ○○ 쪼간만 하더라도 나는 저에게 조금도 잘못한 것은 없다.”",
+      "ko": "김유정 「동백꽃」에 이런 문장이 있어요: “나흘 전 ○○ 쪼간만 하더라도 나는 저에게 조금도 잘못한 것은 없다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "봄"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m203",
+    "room": "markov",
+    "locale": "ko",
+    "target": "정거장",
+    "taboo": [
+      "정거장",
+      "정거",
+      "거장"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “정거장”",
+      "ko": "“정거장” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Lucky Day”: “오늘 손을 태고 ○○○에까지 가지 않았겠나.”",
+      "ko": "현진건 「운수 좋은 날」에 이런 문장이 있어요: “오늘 손을 태고 ○○○에까지 가지 않았겠나.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "바로"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m020",
+    "room": "markov",
+    "locale": "ko",
+    "target": "사내",
+    "taboo": [
+      "사내"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “사내”",
+      "ko": "“사내” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “B-sagam and the Love Letters”: “당신 같은 ○○는 난 싫어요.”",
+      "ko": "현진건 「B사감과 러브레터」에 이런 문장이 있어요: “당신 같은 ○○는 난 싫어요.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "같은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m170",
+    "room": "markov",
+    "locale": "ko",
+    "target": "커피",
+    "taboo": [
+      "커피"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “커피”",
+      "ko": "“커피” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “총총한 가운데 여객들 은 그래도 한 잔 ○○가 즐거운가보다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “총총한 가운데 여객들 은 그래도 한 잔 ○○가 즐거운가보다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "끓은"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m135",
+    "room": "markov",
+    "locale": "ko",
+    "target": "외출",
+    "taboo": [
+      "외출"
+    ],
+    "maxTurns": 5,
+    "par": 1,
+    "title": {
+      "en": "Make it write “외출”",
+      "ko": "“외출” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Yi Sang, “Wings”: “나는 ○○한 것을 후회하였다.”",
+      "ko": "이상 「날개」에 이런 문장이 있어요: “나는 ○○한 것을 후회하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "혹"
+    ],
+    "set": "endless"
+  },
+  {
+    "id": "p-ko-m188",
+    "room": "markov",
+    "locale": "ko",
+    "target": "나리",
+    "taboo": [
+      "나리"
+    ],
+    "maxTurns": 5,
+    "par": 2,
+    "title": {
+      "en": "Make it write “나리”",
+      "ko": "“나리” 쓰게 하기"
+    },
+    "hint": {
+      "en": "From Hyeon Jin-geon, “A Society That Drives You to Drink”: “○○는 혀를 억지로 돌리어 코와 입으로 대답을 하였다.”",
+      "ko": "현진건 「술 권하는 사회」에 이런 문장이 있어요: “○○는 혀를 억지로 돌리어 코와 입으로 대답을 하였다.”"
+    },
+    "parTurns": 1,
+    "solution": [
+      "주인"
+    ],
+    "set": "endless"
+  }
+]

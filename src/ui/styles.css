@@ -152,3 +152,21 @@ mark.hit { background: transparent; color: inherit; border-bottom: 4px double cu
   .log { font-size: 1.15rem; padding: 18px 28px; }
   .mcard { padding: 6px 28px 12px; }
 }
+
+/* 오늘의 도전 · 끝없는 도전 */
+.play-cards { display: grid; gap: 12px; margin: 1.2em 0 1.6em; }
+.pcard { display: grid; text-align: left; gap: 2px; padding: 0.9em 1em; border: 3px solid var(--line); min-height: 88px; }
+.pcard .pk { font-size: 0.85rem; color: var(--dim); }
+.pcard .pt { font-size: 1.35rem; font-weight: 800; }
+.pcard .ps { font-size: 0.92rem; }
+.pcard.daily { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.pcard.daily .pk { color: inherit; opacity: 0.75; }
+.pcard:hover { filter: brightness(0.97); }
+.play-cards .link { justify-self: start; }
+@media (min-width: 720px) { .play-cards { grid-template-columns: 1fr 1fr; } .play-cards .link { grid-column: 1 / -1; } }
+.section { margin: 0.6em 0 0; font-size: 1.1rem; }
+.kicker { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.02em; opacity: 0.8; }
+.endless-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 4px 16px; font-weight: 700; flex-wrap: wrap; }
+.countdown { flex-basis: 100%; margin: 0; }
+.archive .mrow .no { min-width: 3em; }
+.archive .mrow { grid-template-columns: 3.6em 1fr; }

@@ -80,7 +80,8 @@ describe('POST /api/report', () => {
   });
 
   it('리플레이 비용 한도를 넘는 건은 verified=0', async () => {
-    const many = allMissions.filter((m) => m.room !== 'gpt2').map((m) => ({ ...result(m.id, 'casual'), locale: m.locale }));
+    // 전시실 미션(ELIZA·마르코프 × en·ko = 36개, 한 번에 받는 한도 50 이하)을 한꺼번에: 초기화 비용만 4번이라 한도를 넘는다
+    const many = allMissions.filter((m) => m.room !== 'gpt2' && !m.set).map((m) => ({ ...result(m.id, 'casual'), locale: m.locale }));
     const o = await handleReport({ results: many }, d.db, allMissions, data);
     expect(o.accepted).toBe(many.length);
     expect(o.verified).toBeLessThan(many.length);

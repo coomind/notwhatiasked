@@ -9,6 +9,8 @@ export interface Progress {
   original: boolean;
   sound: boolean;
   visitorNo?: number;
+  /** 끝없는 도전 최고 기록(언어별) */
+  endlessBest?: Record<string, number>;
 }
 
 const KEY = 'nwia:progress:v1';

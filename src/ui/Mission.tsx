@@ -12,7 +12,7 @@ import { useProgress, updateProgress, recordClear, challengeKey } from './store'
 import { queueResult, useStats } from './stats';
 import { useGpt2, loadGpt2, wasDownloaded } from './gpt2client';
 import { GPT2_MODELS, REDACTED } from '../engines/gpt2/shared';
-import { shareCard, shareUrl, copyLink, type CardTurn } from './share';
+import { shareCard, shareUrl, dailyShareUrl, copyLink, type CardTurn } from './share';
 import { tick } from './sound';
 import { go } from './router';
 
@@ -53,7 +53,20 @@ function renderRedacted(text: string): ReactNode {
   return parts.map((p, i) => <span key={i}>{p}{i < parts.length - 1 && <span className="redacted">{REDACTED}</span>}</span>);
 }
 
-export function MissionView({ mission, lang, launch }: { mission: Mission; lang: string; launch: { replay?: string[]; challenge?: boolean } | null }) {
+/** 오늘의 도전·끝없는 도전처럼 전시실 밖에서 미션 화면을 쓸 때 바꾸는 것들 */
+export interface MissionFrame {
+  label?: string;
+  top?: ReactNode;
+  back?: { label: string; go: () => void };
+  casualOnly?: boolean;
+  noShare?: boolean;
+  /** 오늘의 도전 번호: 공유 문구·카드에서 목표 단어를 가린다(스포일러 방지) */
+  daily?: number;
+  onOutcome?: (o: 'cleared' | 'failed') => void;
+  actions?: (o: 'cleared' | 'failed', again: () => void) => ReactNode;
+}
+
+export function MissionView({ mission, lang, launch, frame }: { mission: Mission; lang: string; launch: { replay?: string[]; challenge?: boolean } | null; frame?: MissionFrame }) {
   const prog = useProgress();
   const stats = useStats();
   const gpt2 = useGpt2();
@@ -104,6 +117,14 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
     const i = turns.length;
     if (i < replay.length) void send(replay[i], true);
   }, [replay, conv, busy, typing, outcome, turns.length]);
+
+  // 바깥(끝없는 도전 등)에 결과 알리기: 판마다 한 번
+  const reported = useRef(-1);
+  useEffect(() => {
+    if (!outcome || replay || reported.current === round) return;
+    reported.current = round;
+    frame?.onOutcome?.(outcome);
+  }, [outcome, replay, round, frame]);
 
   useEffect(() => { logRef.current?.scrollTo({ top: logRef.current.scrollHeight }); }, [turns, outcome]);
   useEffect(() => { if (!toast) return; const id = setTimeout(() => setToast(''), 2600); return () => clearTimeout(id); }, [toast]);
@@ -187,8 +208,8 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
   const sKey = statKey(mission.id, lang, mode);
   const cv = play === 'challenge' && outcome ? challengeView(stats?.m?.[sKey], outcome === 'cleared' ? { attempts, chars: myChars } : null) : null;
   const casualStat = stats?.m?.[sKey];
-  const card = { mission, play, cleared: outcome === 'cleared', attempts: play === 'challenge' || replay ? roundInputs.length : attempts, chars: myChars, turns: doneTurns, topPct: cv?.topPct ?? null, lang };
-  const url = shareUrl(mission, play, roundInputs);
+  const card = { mission, play, cleared: outcome === 'cleared', attempts: play === 'challenge' || replay ? roundInputs.length : attempts, chars: myChars, turns: doneTurns, topPct: cv?.topPct ?? null, lang, daily: frame?.daily };
+  const url = frame?.daily ? dailyShareUrl(frame.daily) : shareUrl(mission, play, roundInputs);
 
   async function onShare() {
     const r = await shareCard(card, url);
@@ -214,14 +235,20 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
   return (
     <div className={`mission skin-${room}`} onClick={() => typing && setSkip(true)}>
       <header className="mbar">
-        <button className="link" onClick={() => { if (abandonChallenge()) go(`room/${room}`); }}>← {t(`room.${room}.name`)}</button>
-        <div className="seg" role="group" aria-label={t('play.label')}>
-          <button aria-pressed={play === 'casual'} onClick={() => switchPlay('casual')}>{t('play.casual')}</button>
-          <button aria-pressed={play === 'challenge'} onClick={() => switchPlay('challenge')}>{t('play.challenge')}</button>
-        </div>
+        {frame?.back
+          ? <button className="link" onClick={() => { if (abandonChallenge()) frame.back!.go(); }}>← {frame.back.label}</button>
+          : <button className="link" onClick={() => { if (abandonChallenge()) go(`room/${room}`); }}>← {t(`room.${room}.name`)}</button>}
+        {!frame?.casualOnly && (
+          <div className="seg" role="group" aria-label={t('play.label')}>
+            <button aria-pressed={play === 'casual'} onClick={() => switchPlay('casual')}>{t('play.casual')}</button>
+            <button aria-pressed={play === 'challenge'} onClick={() => switchPlay('challenge')}>{t('play.challenge')}</button>
+          </div>
+        )}
       </header>
+      {frame?.top}
 
       <section className="mcard" aria-labelledby="mtitle">
+        {frame?.label && <p className="kicker">{frame.label} · {t(`ai.${room}`)}</p>}
         <h1 id="mtitle">{loc(mission.title, lang)}</h1>
         <p className="goal">{t('mission.goal')} <b className="target">{mission.target}</b>{mission.gloss ? ` (${loc(mission.gloss, lang)})` : ''}</p>
         <p className="taboo-list">{t('mission.taboo')} {mission.taboo.map((w) => <span key={w} className="chip">{w}</span>)}</p>
@@ -308,6 +335,13 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
                   {cv && <p>{t('result.clearRate', { pct: cv.clearRate })}</p>}
                 </>
               )}
+              {frame?.actions ? (
+                <div className="actions">
+                  {frame.actions(outcome, () => newRound(outcome === 'cleared'))}
+                  {!frame.noShare && <button onClick={onShare}>{outcome === 'cleared' ? t('share.card') : t('share.failCard')}</button>}
+                  {!frame.noShare && <button onClick={onCopy}>{t('share.link')}</button>}
+                </div>
+              ) : (
               <div className="actions">
                 <button className="primary" onClick={onShare}>{outcome === 'cleared' ? t('share.card') : t('share.failCard')}</button>
                 <button onClick={onCopy}>{t('share.link')}</button>
@@ -316,6 +350,7 @@ export function MissionView({ mission, lang, launch }: { mission: Mission; lang:
                 {play === 'challenge' && <button onClick={() => newRound(true)}>{t('challenge.retry')}</button>}
                 {next ? <button onClick={() => go(`m/${next.id}`)}>{t('next')} →</button> : <button onClick={() => go(room === 'gpt2' ? 'ending' : '')}>{room === 'gpt2' ? t('to.ending') : t('to.lobby')} →</button>}
               </div>
+              )}
             </div>
           )}
         </section>

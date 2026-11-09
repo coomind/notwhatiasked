@@ -18,7 +18,7 @@ export function engineAvailable(room: RoomId, locale: string): boolean {
 }
 
 function missionsFor(room: RoomId, locale: string): Mission[] {
-  return MISSIONS.filter((m) => m.room === room && m.locale === locale);
+  return MISSIONS.filter((m) => m.room === room && m.locale === locale && !m.set);
 }
 
 export interface RoomSet { room: RoomId; locale: string; mode: AiMode; missions: Mission[]; forcedOriginal: boolean }

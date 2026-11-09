@@ -40,7 +40,7 @@
     },
     "hint": {
       "en": "What if you speak a language she does not know?",
-      "ko": "그녀가 모르는 나라 말로 말을 걸면?"
+      "ko": "얘가 모르는 나라 말로 말을 걸면?"
     },
     "par": 1,
     "parTurns": 1,
@@ -157,7 +157,7 @@
     },
     "hint": {
       "en": "Talk about HER. She flips “you” into “I”.",
-      "ko": "그녀에 대해 말해 보세요. “너”를 “제가”로 뒤집어요."
+      "ko": "ELIZA 얘기를 해 보세요. “너”를 “제가”로 뒤집어요."
     },
     "par": 5,
     "parTurns": 1,

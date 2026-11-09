@@ -52,7 +52,7 @@ test('공유 링크(일반): 대화가 그대로 재생되고 "나도 해보기"
   const m = missions('ko', 'eliza')[0];
   await page.goto(`/?lang=ko&m=${m.id}&r=${encodeInputs(m.solution!)}`);
   const end = await waitResult(page);
-  await expect(end).toContainText('그대로 재생');
+  await expect(end).toContainText('그대로 다시 돌렸어요');
   await expect(page.locator('mark.hit')).toHaveCount(1);
   await page.getByRole('button', { name: '나도 해보기' }).click();
   await expect(page.getByRole('textbox')).toBeEnabled();
@@ -121,4 +121,61 @@ test('모바일: 입력창이 화면 안에 보임', async ({ page }, info) => {
   expect(box!.y + box!.height).toBeLessThanOrEqual(740 + 1);
   const w = await page.evaluate(() => document.documentElement.scrollWidth);
   expect(w).toBeLessThanOrEqual(360);
+});
+
+for (const lang of ['ko', 'en'] as const) {
+  test(`${lang} 오늘의 도전: 로비 카드 → 오늘 문제 클리어 → 다음 문제까지 남은 시간`, async ({ page, errors }) => {
+    await page.clock.setFixedTime(new Date(2026, 10, 9, 12, 0, 0)); // 1일차
+    const m = missions(lang, 'pool').filter((x) => x.set === 'daily')[0];
+    await page.goto(`/?lang=${lang}`);
+    await page.locator('.pcard.daily').click();
+    await expect(page.locator('.kicker')).toContainText('#1');
+    await expect(page.locator('#mtitle')).toContainText(m.target);
+    for (const s of m.solution!) {
+      await say(page, s);
+      await page.waitForTimeout(150);
+      await page.locator('.log').click({ position: { x: 5, y: 5 } });
+      await expect(page.locator('.thinking')).toHaveCount(0);
+    }
+    const r = await waitResult(page);
+    await expect(r).toContainText(lang === 'en' ? 'CLEAR' : '클리어');
+    await expect(r.locator('.countdown')).toContainText('12:00:00');
+    await page.getByRole('button', { name: lang === 'en' ? /Lobby/ : /로비로/ }).first().click();
+    await expect(page.locator('.pcard.daily')).toContainText(lang === 'en' ? 'Cleared' : '깸');
+    expect(errors).toEqual([]);
+  });
+}
+
+test('지난 도전: 3일차엔 #3 #2 #1, 아직 안 열린 날은 오늘 문제로', async ({ page }) => {
+  await page.clock.setFixedTime(new Date(2026, 10, 11, 9, 0, 0));
+  await page.goto('/?lang=ko#/archive');
+  await expect(page.locator('.archive .mrow')).toHaveCount(3);
+  await expect(page.locator('.archive .mrow').first()).toContainText('#3');
+  await page.goto('/?lang=ko#/d/99');
+  await expect(page.locator('.notice')).toContainText('아직 안 열린 날');
+  await expect(page.locator('.kicker')).toContainText('#3');
+});
+
+test('끝없는 도전: 실패하면 목숨 −1, 넘기기도 −1, 다 잃으면 결과 화면', async ({ page, errors }) => {
+  await page.goto('/?lang=ko#/endless');
+  await expect(page.locator('.endless-bar')).toContainText('♥♥♥');
+  // 한 판(턴 한도) 동안 아무 말이나: 마르코프는 모르는 단어면 멈추고, ELIZA는 딴소리
+  for (let i = 0; i < 5 && !(await page.locator('.result').count()); i++) {
+    await say(page, ['ㅋ', '음', '아', '흠', '헐'][i]);
+    await page.waitForTimeout(150);
+    await page.locator('.log').click({ position: { x: 5, y: 5 } });
+    await expect(page.locator('.thinking')).toHaveCount(0);
+  }
+  const r = await waitResult(page);
+  if (await r.getByText('목숨 하나').count()) {
+    await expect(page.locator('.endless-bar')).toContainText('♥♥♡');
+    await page.getByRole('button', { name: '다음 문제 →' }).click();
+  } else {
+    await page.getByRole('button', { name: '다음 문제 →' }).click(); // 운 좋게 깼으면 그냥 다음
+  }
+  while (await page.getByRole('button', { name: /넘기기/ }).count()) await page.getByRole('button', { name: /넘기기/ }).click();
+  await expect(page.locator('.endless-over h1')).toContainText('끝!');
+  await page.getByRole('button', { name: '다시 하기' }).click();
+  await expect(page.locator('.endless-bar')).toContainText('♥♥♥');
+  expect(errors).toEqual([]);
 });

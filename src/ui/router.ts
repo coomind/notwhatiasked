@@ -1,12 +1,15 @@
-// 아주 작은 해시 라우터: #/ · #/room/eliza · #/m/<id> · #/ending · #/credits
+// 아주 작은 해시 라우터: #/ · #/room/eliza · #/m/<id> · #/d(/<n>) 오늘의 도전 · #/archive 지난 도전 · #/endless · #/ending · #/credits
 import { useSyncExternalStore } from 'react';
 
-export type Route = { name: 'lobby' } | { name: 'room'; room: string } | { name: 'mission'; id: string } | { name: 'ending' } | { name: 'credits' };
+export type Route = { name: 'lobby' } | { name: 'room'; room: string } | { name: 'mission'; id: string } | { name: 'daily'; n?: number } | { name: 'archive' } | { name: 'endless' } | { name: 'ending' } | { name: 'credits' };
 
 export function parseHash(h: string): Route {
   const p = h.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
   if (p[0] === 'room' && p[1]) return { name: 'room', room: p[1] };
   if (p[0] === 'm' && p[1]) return { name: 'mission', id: p[1] };
+  if (p[0] === 'd') { const n = Number(p[1]); return { name: 'daily', n: Number.isInteger(n) && n > 0 ? n : undefined }; }
+  if (p[0] === 'archive') return { name: 'archive' };
+  if (p[0] === 'endless') return { name: 'endless' };
   if (p[0] === 'ending') return { name: 'ending' };
   if (p[0] === 'credits') return { name: 'credits' };
   return { name: 'lobby' };

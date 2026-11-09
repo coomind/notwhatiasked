@@ -13,6 +13,8 @@ export interface CardInfo {
   turns: CardTurn[];
   topPct?: number | null;
   lang: string;
+  /** 오늘의 도전 번호. 있으면 입력과 목표 단어를 가린다(같은 날 다른 사람이 볼 수 있으니) */
+  daily?: number;
 }
 
 const THEME: Record<RoomId, { bg: string; fg: string; dim: string; accent: string; font: string; upper: boolean }> = {
@@ -27,10 +29,19 @@ export function shareUrl(m: Mission, play: PlayMode, inputs: string[]): string {
   return `${base}?m=${encodeURIComponent(m.id)}&r=${encodeInputs(inputs)}`;
 }
 
+export function dailyShareUrl(n: number): string { return `${location.origin}/?d=${n}`; }
+
+/** 오늘의 도전 카드에서 목표 단어 가리기 */
+export function hideTarget(s: string, target: string): string {
+  const esc = target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return s.replace(new RegExp(esc, 'gi'), (w) => '●'.repeat(Array.from(w).length));
+}
+
 export function aiName(room: RoomId, lang: string): string { return t(`ai.${room}`, undefined, lang); }
 
 export function shareText(c: CardInfo): string {
-  const vars = { ai: aiName(c.mission.room, c.lang), target: c.mission.target, n: c.attempts, pct: c.topPct ?? '' };
+  const vars = { ai: aiName(c.mission.room, c.lang), target: c.mission.target, n: c.attempts, pct: c.topPct ?? '', day: c.daily ?? '' };
+  if (c.daily) return t(c.cleared ? 'share.daily' : 'share.dailyFail', vars, c.lang);
   if (!c.cleared) return t('share.fail', vars, c.lang);
   if (c.play === 'challenge' && c.topPct) return t('share.challengeTop', vars, c.lang);
   return t('share.clear', vars, c.lang);
@@ -83,7 +94,8 @@ export async function drawCard(c: CardInfo): Promise<Blob | null> {
   y += 56;
   ctx.fillStyle = th.fg;
   ctx.font = `700 46px ${th.font}`;
-  for (const l of wrap(ctx, loc(c.mission.title, c.lang), W - 2 * P)) { ctx.fillText(l, P, y); y += 58; }
+  const title = c.daily ? t('daily.title', { n: c.daily }, c.lang) : loc(c.mission.title, c.lang);
+  for (const l of wrap(ctx, title, W - 2 * P)) { ctx.fillText(l, P, y); y += 58; }
   y += 18;
   // 대화(마지막 몇 턴)
   const fs = 36, lh = 50;
@@ -91,10 +103,11 @@ export async function drawCard(c: CardInfo): Promise<Blob | null> {
   const turns = c.cleared ? c.turns.slice(-3) : [pickFunniest(c.turns)].filter(Boolean) as CardTurn[];
   const lines: { s: string; color: string; bold?: boolean }[] = [];
   for (const tr of turns) {
-    const inp = c.play === 'challenge' ? mask(tr.input) : tr.input;
+    const inp = c.play === 'challenge' || c.daily ? mask(tr.input) : tr.input;
     const label = c.mission.room === 'gpt2' ? 'In: ' : '> ';
     for (const l of wrap(ctx, label + inp, W - 2 * P)) lines.push({ s: l, color: th.dim });
-    const rep = th.upper ? tr.reply.toUpperCase() : tr.reply;
+    const rep0 = c.daily ? hideTarget(tr.reply, c.mission.target) : tr.reply;
+    const rep = th.upper ? rep0.toUpperCase() : rep0;
     for (const l of wrap(ctx, (c.mission.room === 'gpt2' ? 'Out: ' : '') + rep, W - 2 * P)) lines.push({ s: l, color: th.fg, bold: true });
     lines.push({ s: '', color: th.fg });
   }
@@ -131,7 +144,7 @@ export async function drawCard(c: CardInfo): Promise<Blob | null> {
     ctx.restore();
     ctx.font = `500 34px ${th.font}`;
     ctx.fillStyle = th.fg;
-    ctx.fillText(t('card.failed', { target: c.mission.target }, c.lang), P, y + 70);
+    ctx.fillText(c.daily ? t('card.failedDaily', undefined, c.lang) : t('card.failed', { target: c.mission.target }, c.lang), P, y + 70);
   }
   ctx.fillStyle = th.dim;
   ctx.font = `500 30px ${th.font}`;
